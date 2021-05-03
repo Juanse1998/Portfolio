@@ -12,7 +12,7 @@ export default function Project() {
       <div className="line"></div>
 
       <div class="title">
-        <h2>Tecnologias</h2>
+        <h2>Tecnologiass</h2>
       </div>
 
       <Skills />
