@@ -1,0 +1,36 @@
+.navBar {
+  position: absolute;
+  width: 637px;
+  left: 0px;
+  top: 0px;
+  margin-left: 530px;
+  padding-top: 20px;
+  display: flex;
+  text-align:center;
+  text-decoration: none;
+}
+
+
+/* import styled from "styled-components";
+
+export const Title = styled.h1`
+  font-size: 4em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+export const Container = styled.h1`
+  position: absolute;
+  width: 637px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+`;
+
+export const FeatureWrapper = styled.section`
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+`; */

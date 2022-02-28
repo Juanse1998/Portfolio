@@ -15,11 +15,12 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <>
-      <div className="skills">
+      <div className="skills" id="skills">
         <div style={{ paddingRight: "30%" }}>
           <div className="items">
-            <i> ReactJS </i>
+            <i class="tech-name"> ReactJS </i>
             <img
+              class="logos"
               src={react}
               alt="logo react"
               style={{
@@ -29,9 +30,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <div className="texto" style={{ width: "100%" }}>
-              <i>React Native</i>
+              <i class="tech-name">React Native</i>
               <img
+                class="logos"
                 src={atom}
                 alt="logo atom"
                 style={{
@@ -39,11 +40,11 @@ export default function Skills() {
                   marginBottom: "30%",
                 }}
               />
-            </div>
           </div>
           <div className="items">
-            <i>CSS</i>
+            <i class="tech-name">CSS</i>
             <img
+              class="logos"
               src={css}
               alt="logo css"
               style={{
@@ -53,8 +54,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>SQL</i>
+            <i class="tech-name">SQL</i>
             <img
+              class="logos"
               src={database}
               alt="logo database"
               style={{
@@ -64,8 +66,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>Docker</i>
+            <i class="tech-name">Docker</i>
             <img
+              class="logos"
               src={docker}
               alt="logo docker"
               style={{
@@ -75,8 +78,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>Github</i>
+            <i class="tech-name">Github</i>
             <img
+              class="logos"
               src={github}
               alt="logo github"
               style={{
@@ -86,8 +90,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>HTML</i>
+            <i class="tech-name">HTML</i>
             <img
+              class="logos"
               src={html}
               alt="logo html"
               style={{
@@ -97,8 +102,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>Java</i>
+            <i class="tech-name">Java</i>
             <img
+              class="logos"
               src={java}
               alt="logo java"
               style={{
@@ -108,8 +114,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>MySql</i>
+            <i class="tech-name">MySql</i>
             <img
+              class="logos"
               src={mysql}
               alt="logo mysql"
               style={{
@@ -119,8 +126,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>Postman</i>
+            <i class="tech-name">Postman</i>
             <img
+              class="logos"
               src={postman}
               alt="logo postman"
               style={{
@@ -130,8 +138,9 @@ export default function Skills() {
             />
           </div>
           <div className="items">
-            <i>sequelize</i>
+            <i class="tech-name">sequelize</i>
             <img
+              class="logos"
               src={sequelize}
               alt="logo sequelize"
               style={{

@@ -8,43 +8,34 @@ import "./Project.css";
 export default function Project() {
   return (
     <>
-      <Navbar />
-      <div className="line"></div>
-
-      <div class="title">
-        <h2>Tecnologiass</h2>
+      <div id="projects" class="container">
+        <div class="title">
+          <h2>Mis Proyectos</h2>
+        </div>
+        <Container>
+          <div className="card">
+            <div className="nameApp">
+              <Titleapp>Ecommerce</Titleapp>
+            </div>
+          </div>
+          <div className="card">
+            <div className="nameApp">
+              <Titleapp>Notifications UNRC</Titleapp>
+            </div>
+          </div>
+          <div className="card">
+            <div className="nameApp">
+              <Titleapp>WeatherApp</Titleapp>
+            </div>
+          </div>
+          <div className="card">
+            <div className="nameApp">
+              <Titleapp>VideoGamesApp</Titleapp>
+            </div>
+          </div>
+        </Container>
       </div>
 
-      <Skills />
-
-      <div class="title">
-        <h2>Mis Proyectos</h2>
-      </div>
-      <Container>
-        <div className="card">
-          <div className="nameApp">
-            <Titleapp>Ecommerce</Titleapp>
-          </div>
-        </div>
-        <div className="card">
-          <div className="nameApp">
-            <Titleapp>Notifications UNRC</Titleapp>
-          </div>
-        </div>
-        <div className="card">
-          <div className="nameApp">
-            <Titleapp>WeatherApp</Titleapp>
-          </div>
-        </div>
-        <div className="card">
-          <div className="nameApp">
-            <Titleapp>VideoGamesApp</Titleapp>
-          </div>
-        </div>
-      </Container>
-      <div>
-        <About />
-      </div>
     </>
   );
 }

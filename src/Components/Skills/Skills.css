@@ -1,32 +1,39 @@
 .skills {
-  margin-top: 3em;
-  justify-content: center;
+  margin-top: 35em;
   border: solid 2px;
   border-color: #a4a65f;
   column-count: 3;
-  width: 30em;
-  height: 28em;
+  width: 753px;
+  height: 500px;
   margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
-  
+  position: relative;
 }
 
 
 .items {
-  width: 2px;
-  display: grid;
+  width: 8px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 8%; 
-  /* height: 60px; */
-  /* box-sizing: content-box;
-  float:left; */
-  height: 100px;
-  /* margin: 5%; */
+  margin-bottom: 10px;
+  padding-top: 12px;
+  height: 100px
+}
+
+.tech-name {
+  margin-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 i {
   color: white;
 }
 
+.logos {
+  width: 50px;
+  margin-top: 9px;
+  margin-left: auto;
+  margin-right: auto;
+}

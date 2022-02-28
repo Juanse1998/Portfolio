@@ -1,23 +1,27 @@
 import { React } from "react";
-import { Container, FeatureButton, FeatureWrapper } from "../NavBar/NavBar.js";
 import { NavLink } from "react-router-dom";
+import Contact from "../Contact/Contact.jsx";
+import "./NavBar.css";
 
 export default function Navbar() {
   return (
-    <Container>
-      <FeatureWrapper>
-        <NavLink exact to="/">
-          <FeatureButton> Home </FeatureButton>
+    <div class="navBar">
+        <NavLink class="navLink" exact to="/">
+          <span class="textNavbar">
+             Sobre mi
+          </span>
         </NavLink>
-
-        <NavLink exact to="/Contact">
-          <FeatureButton> Contacts </FeatureButton>
-        </NavLink>
-
-        <NavLink exact to="/Projects">
-          <FeatureButton> Projects </FeatureButton>
-        </NavLink>
-      </FeatureWrapper>
-    </Container>
+        <a class="navLink" href="#skills">
+          <span class="textNavbar">
+             Habilidades
+          </span>
+        </a>
+        <a class="navLink" href="#projects">
+          <span class="textNavbar">
+            Proyectos
+          </span>
+        </a>
+        <Contact/>
+    </div>
   );
 }
