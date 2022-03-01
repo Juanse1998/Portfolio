@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <>
       <div className="container">
-        <div class="lineColor"></div>
         <Me />
         {/* <Title>Bienvenidos a mi portfolio</Title> */}
         {/* <div className="me">

@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Switch>
           <Link path="/" component={Home} exact />
-          <Link path="/Habilidades" component={Skills} exact />
-          <Link path="/Contacto" component={Contact} />
-          <Link path="/Proyectos" component={Project} />
+          <Link path="/habilidades" component={Skills} exact />
+          <Link path="/contacto" component={Contact} exact />
+          <Link path="/proyectos" component={Project} exact />
         </Switch>
       </BrowserRouter>
     </React.Fragment>

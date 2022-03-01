@@ -1,8 +1,5 @@
 import { React } from "react";
-import Navbar from "../NavBar/Navbar";
 import { Titleapp, Container } from "./Project.js";
-import About from "../About/About.jsx";
-import Skills from "../Skills/Skills";
 
 import "./Project.css";
 export default function Project() {

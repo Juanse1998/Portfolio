@@ -23,42 +23,7 @@ h2 {
 	margin: -50px 0;
 }
 
-.line {
-  border-top: 1px solid #a4a65f;
-  padding: 0;
-  margin: 30px auto 0 auto;
-  width: 50%;
-}
-
-.lineTwo {
-  border-top: 1px solid #a4a65f;
-  padding: 0;
-  margin: 30px auto 0 auto;
-  width: 50%;
-}
-/* styling my button */
-p {
-  font-size: 35px;
-  color: white;
-  margin-left: 2%;
-}
-.white-mode {
-	text-decoration: none;
-	padding: 7px 10px;
-	background-color: #122;
-	border-radius: 3px;
-	color: #FFF;
-	transition: .35s ease-in-out;
-	position: absolute;
-	left: 15px;
-	bottom: 15px;
-}
-
-.white-mode:hover {
-	background-color: #FFF;
-	color: #122;
-}
-
 .container {
-  position: relative;
+  clear: both;
+  padding-top: 60px;
 }
