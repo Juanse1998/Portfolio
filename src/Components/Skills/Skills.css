@@ -1,24 +1,8 @@
-.skills {
-  margin-top: 35em;
-  border: solid 2px;
-  border-color: #a4a65f;
+.item {
   column-count: 3;
-  width: 753px;
-  height: 500px;
-  margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-}
-
-
-.items {
-  width: 8px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-  padding-top: 12px;
-  height: 100px
+  margin-top: 80px;
 }
 
 .tech-name {
@@ -37,3 +21,52 @@ i {
   margin-left: auto;
   margin-right: auto;
 }
+
+.titleSkills {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-inline: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.35538em;
+}
+
+.containerTitle {
+  margin-left: auto;
+  margin-right: auto;
+  display: contents;
+}
+
+.box {
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+}
+
+.containerSkills {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+}
+.items {
+  margin-left: auto;
+  margin-right: auto;
+  margin-inline: 50px;
+}
+
+.grid {
+  margin-left: auto;
+  margin-bottom: auto;
+  display: grid;
+}
+
+

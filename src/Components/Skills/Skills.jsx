@@ -15,139 +15,208 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <>
-      <div className="skills" id="skills">
-        <div style={{ paddingRight: "30%" }}>
-          <div className="items">
-            <i class="tech-name"> ReactJS </i>
-            <img
-              class="logos"
-              src={react}
-              alt="logo react"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+      <div className="containerSkills" id="skills">
+        <div className="containerTitle">
+          <div className="box">
+            <span className="titleSkills">HABILIDADES</span>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-              <i class="tech-name">React Native</i>
+            <div className="grid">
               <img
                 class="logos"
-                src={atom}
-                alt="logo atom"
+                src={react}
+                alt="logo react"
                 style={{
                   width: "50px",
                   marginBottom: "30%",
                 }}
               />
+              <div className="tech-name">
+                <i> ReactJS </i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">CSS</i>
-            <img
-              class="logos"
-              src={css}
-              alt="logo css"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={atom}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i> React Native </i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">SQL</i>
-            <img
-              class="logos"
-              src={database}
-              alt="logo database"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={css}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>CSS</i>
+              </div>
+            </div>
           </div>
+        </div>
+         <div className="item">
           <div className="items">
-            <i class="tech-name">Docker</i>
-            <img
-              class="logos"
-              src={docker}
-              alt="logo docker"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={database}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>SQL</i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">Github</i>
-            <img
-              class="logos"
-              src={github}
-              alt="logo github"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={docker}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>Docker</i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">HTML</i>
-            <img
-              class="logos"
-              src={html}
-              alt="logo html"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={github}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>Github</i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">Java</i>
-            <img
-              class="logos"
-              src={java}
-              alt="logo java"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={html}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>HTML</i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">MySql</i>
-            <img
-              class="logos"
-              src={mysql}
-              alt="logo mysql"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={java}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>Java</i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">Postman</i>
-            <img
-              class="logos"
-              src={postman}
-              alt="logo postman"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={mysql}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>MySql</i>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="item">
           <div className="items">
-            <i class="tech-name">sequelize</i>
-            <img
-              class="logos"
-              src={sequelize}
-              alt="logo sequelize"
-              style={{
-                width: "50px",
-                marginBottom: "30%",
-              }}
-            />
+            <div className="grid">
+              <img
+                class="logos"
+                src={postman}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>Postman</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="item">
+          <div className="items">
+            <div className="grid">
+              <img
+                class="logos"
+                src={sequelize}
+                alt="logo react"
+                style={{
+                  width: "50px",
+                  marginBottom: "30%",
+                }}
+              />
+              <div className="tech-name">
+                <i>sequelize</i>
+              </div>
+            </div>
           </div>
         </div>
       </div>
