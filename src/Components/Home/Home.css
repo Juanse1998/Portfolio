@@ -5,25 +5,16 @@
   /* #090909f0; */
 }
 
-/* .title {
-  position: absolute;
-  width: 870px;
-  height: 733px;
-  left: -971.08px;
-  top: 128px;
-} */
-
-h2 {
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	font-size: 50px;
-	margin: -50px 0;
-}
-
 .container {
   clear: both;
   padding-top: 60px;
+}
+
+.title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  color: #000000;
 }

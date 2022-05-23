@@ -1,14 +1,18 @@
 .item {
-  column-count: 3;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-bottom: 25px;
+  width: min-content;
+  height: min-content;
 }
 
 .tech-name {
   margin-bottom: 2px;
   margin-left: auto;
   margin-right: auto;
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  width: 120px;
 }
 
 i {
@@ -22,8 +26,8 @@ i {
   margin-right: auto;
 }
 
-.titleSkills {
-  margin-top: 5px;
+.containerTitle {
+  margin-top: 25px;
   margin-bottom: 5px;
   margin-inline: 20px;
   font-family: Montserrat;
@@ -32,9 +36,6 @@ i {
   font-size: 30px;
   line-height: 38px;
   letter-spacing: 0.35538em;
-}
-
-.containerTitle {
   margin-left: auto;
   margin-right: auto;
   display: contents;
@@ -52,10 +53,11 @@ i {
 }
 
 .containerSkills {
-  justify-content: center;
-  display: flex;
-  width: 100%;
   margin-top: 150px;
+  column-count: 4;
+  margin-inline: 185px;
+  margin-bottom: 120px;
+
 }
 .items {
   margin-left: auto;
@@ -70,3 +72,14 @@ i {
 }
 
 
+.contSkills {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 100px;
+  display: inline-grid;
+  margin-top: 95px;
+}

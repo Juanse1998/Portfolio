@@ -9,7 +9,6 @@ export default function Contact() {
         <span class="textButton">
           Contacto
         </span>
-
       </div>
     </>
   );

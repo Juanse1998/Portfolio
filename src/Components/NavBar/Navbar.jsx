@@ -1,26 +1,25 @@
 import { React } from "react";
-import { NavLink, Link } from "react-router-dom";
 import Contact from "../Contact/Contact.jsx";
 import "./NavBar.css";
 
 export default function Navbar() {
   return (
     <div class="navBar">
-        <a class="navLink" href="/">
-          <span class="textNavbar">
+        <div class="navLink">
+          <a class="textNavbar" href="/">
              Sobre mi
-          </span>
-        </a>
-        <a class="navLink" href="#skills">
-          <span class="textNavbar">
+          </a>
+        </div>
+        <div class="navLink">
+          <a class="textNavbar" href="#skills">
              Habilidades
-          </span>
-        </a>
-        <a class="navLink" href="#projects">
-          <span class="textNavbar">
+          </a>
+        </div>
+        <div class="navLink">
+          <a class="textNavbar" href="#projects">
             Proyectos
-          </span>
-        </a>
+          </a>
+        </div>
         <Contact/>
     </div>
   );

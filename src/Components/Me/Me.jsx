@@ -26,6 +26,7 @@ export default function Me() {
             <img src={logo_two} alt="Logo" class="imagen-one"  />
           </div>
         </div>
+        <div class="redes">
           <img src={logo} alt="Logo" class="imagen-two"  />
         </div>
         <div className="contImagen">
@@ -33,6 +34,7 @@ export default function Me() {
           <a href="https://github.com/Juanse1998" target="_blank"><img src={github} alt="Logo" class="github" /></a>
           <a href="https://wa.link/zl8dhc" target="_blank"><img src={wpp} alt="Logo" class="wpp" /></a>
         </div>
+      </div>
     </>
   );
 

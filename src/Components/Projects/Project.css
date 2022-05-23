@@ -1,16 +1,82 @@
-.card {
-  display: flex;
-  margin-top: 6%;
-  border: solid 2px;
-  border-color: #a4a65f;
-  height: 300px;
-  width: 30em;
-  margin-inline: 10%;
+.contTitle {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-inline: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.35538em;
+  margin-left: auto;
+  margin-right: auto;
+  display: contents;
+  display: flow-root;
 }
 
-.nameApp {
-    display: flex;
-    width: 100%;
-    height: 20%;
-    justify-content: center;
+.containerProject {
+  padding-top: 100px;
+  margin-top: 95px;
+  margin-top: 640px;
+  left: 0;
+  right: 0;
+}
+
+.card-title {
+  font-size: 15px;
+}
+
+
+.carousel-root {
+  width: 500px;
+  padding-top: 20px;
+}
+.carousel-status {
+  display: none;
+}
+
+.control-arrow {
+  background-color: rgb(121, 105, 105) !important;
+  opacity: 0.6 !important;
+}
+
+.legend {
+  margin-top: 10px;
+}
+
+.containerProjects {
+  column-count: 2;
+  text-align: -webkit-center;
+  padding-top: 100px;
+}
+
+.titleProject {
+  width: 252px;
+  margin-top: 2px;
+  padding-top: 40px;
+  height: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.titleProjectTwo {
+  font-size: 20px;
+  width: 252px;
+  padding-top: 40px;
+  height: 20px;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .containerProjects {
+    column-count: 1;
+  }
+  .containerProject {
+    padding-top: 100px;
+    margin-top: 95px;
+    margin-top: 640px;
+    width: 895px;
+  }
+  .titleProject {
+    width: 895px;
+  }
 }
