@@ -83,3 +83,16 @@ i {
   display: inline-grid;
   margin-top: 95px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .containerSkills {
+    text-align: justify;
+    column-count: 2;
+    width: 250px ;
+  }
+  .item {
+    width: 25px;
+  }
+
+}

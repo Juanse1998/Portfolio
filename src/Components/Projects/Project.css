@@ -44,8 +44,16 @@
   margin-top: 10px;
 }
 
+.carousel-root {
+  width: 850px !important;
+}
+
+.carousel .thumb{
+  width: 175px !important;
+}
+
 .containerProjects {
-  column-count: 2;
+  column-count: 1;
   text-align: -webkit-center;
   padding-top: 100px;
 }
@@ -74,9 +82,18 @@
     padding-top: 100px;
     margin-top: 95px;
     margin-top: 640px;
-    width: 895px;
+    width: auto;
   }
   .titleProject {
-    width: 895px;
+    width: auto;
+  }
+  .carousel-root {
+    width: 230px !important;
+  }
+  .carousel .thumb{
+    width: 55px !important;
+  }
+  .carousel .control-next.control-arrow {
+    width: 20px !important;
   }
 }

@@ -2,13 +2,26 @@ import { React, useState  } from "react";
 import te from "./te.png";
 import te2 from "./te-3.png";
 import te3 from "./te-3.png";
-import Modal from "../Modal/Modal.jsx";
+import videogames1 from "./videogames1.png";
+import videogames2 from "./videogames2.png";
+import videogames3 from "./videogames3.png";
+import videogames4 from "./videogames4.png";
+import watherApp1 from "./watherApp1.png";
+import watherApp2 from "./watherApp2.png";
+import ModalImage from "../ModalImage/ModalImage.jsx";
+
 import "./Project.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
 export default function Project() {
   const [showModal, setShowModal] = useState(false);
+
+  const onClickItem = () => {
+  console.log('acaaaa', ModalImage);
+  <ModalImage />
+    // img[0].style.transform = 'scale(0)';
+  }
   return (
     <>
       <div id="projects" class="containerProject">
@@ -17,7 +30,7 @@ export default function Project() {
         </div>
         <div class="containerProjects">
           <h2 className="titleProject">Té quiero Eccomerce</h2>
-          <Carousel>
+          <Carousel id="carousel" onClick={onClickItem}>
             <div>
                 <img src={te} />
             </div>
@@ -31,10 +44,10 @@ export default function Project() {
           <h2 className="titleProjectTwo">Weather App</h2>
           <Carousel>
             <div>
-                <img src={te} />
+                <img src={watherApp1} />
             </div>
             <div>
-                <img src={te2} />
+                <img src={watherApp2} />
             </div>
             <div>
                 <img src={te3} />
@@ -43,25 +56,28 @@ export default function Project() {
           <h2 className="titleProject">Notification UNRC</h2>
           <Carousel>
             <div>
-                <img src={te} />
+              <img src={te} />
             </div>
             <div>
-                <img src={te2} />
+              <img src={te2} />
             </div>
             <div>
-                <img src={te3} />
+              <img src={te3} />
             </div>
           </Carousel>
           <h2 className="titleProjectTwo">Videogames App</h2>
           <Carousel>
             <div>
-                <img src={te} />
+              <img className="img1" id="img1" src={videogames1}/>
             </div>
             <div>
-                <img src={te2} />
+              <img src={videogames2} />
             </div>
             <div>
-                <img src={te3} />
+              <img src={videogames3} />
+            </div>
+            <div>
+              <img src={videogames4} />
             </div>
           </Carousel>
         </div>

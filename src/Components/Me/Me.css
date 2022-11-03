@@ -1,3 +1,8 @@
+
+.me {
+  align-items: center;
+}
+
 .title {
   font-family: Raleway;
   font-style: normal;
@@ -73,18 +78,30 @@
   justify-content: right;
 }
 @media only screen and (max-width: 1000px) {
+  .imagen-one {
+    text-align: -webkit-center;
+    display: flex;
+  }
   .imagen-two {
+    text-align: -webkit-center;
     display: none;
     justify-content: center;
   }
   .contImagen {
+    text-align: -webkit-center;
     position: relative;
     justify-content: center;
     width: 80%;
     margin-top: 80px;
   }
   .name {
-    justify-content: center;
+    text-align: -webkit-center;
+    margin: 0 auto;
     position: relative;
+  }
+  .title {
+        text-align: -webkit-center;
+    justify-content: center;
+    font-size: 40px !important;
   }
 }

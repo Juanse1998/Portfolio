@@ -5,7 +5,7 @@ import "./NavBar.css";
 export default function Navbar() {
   return (
     <div class="navBar">
-        <div class="navLink">
+        {/* <div class="navLink">
           <a class="textNavbar" href="/">
              Sobre mi
           </a>
@@ -20,7 +20,7 @@ export default function Navbar() {
             Proyectos
           </a>
         </div>
-        <Contact/>
+        <Contact/> */}
     </div>
   );
 }
