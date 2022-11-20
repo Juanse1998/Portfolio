@@ -23,7 +23,7 @@
 
 .imagen-one {
   display: flex;
-  justify-content: center;
+  padding-left: 30px;
 }
 
 .imagen-two {
@@ -38,17 +38,18 @@
 }
 
 .name {
-  width: 413px;
+  width: auto;
   justify-content: left;
   margin-left: 60px;
 }
 
 .contSubtitle {
+  width: auto;
   display: flex;
-  justify-content: center;
+  padding-left: 67px;
 }
 
-.contImagen{
+.contImagen {
   display: flex;
   float: right;
   margin-right: 108px;
@@ -78,9 +79,16 @@
   justify-content: right;
 }
 @media only screen and (max-width: 1000px) {
+  .me {
+    display: inline-block;
+    align-items: center;
+  }
+
   .imagen-one {
+    justify-content: center;
     text-align: -webkit-center;
     display: flex;
+    padding: 0;
   }
   .imagen-two {
     text-align: -webkit-center;
@@ -88,11 +96,12 @@
     justify-content: center;
   }
   .contImagen {
-    text-align: -webkit-center;
-    position: relative;
-    justify-content: center;
-    width: 80%;
+    display: flex;
+    width: auto;
+    float: center !important;
     margin-top: 80px;
+    margin-right: 0;
+    margin-left: 0;
   }
   .name {
     text-align: -webkit-center;
@@ -100,8 +109,22 @@
     position: relative;
   }
   .title {
-        text-align: -webkit-center;
+    text-align: -webkit-center;
     justify-content: center;
     font-size: 40px !important;
+  }
+  .contSubtitle {
+    justify-content: center;
+    width: auto;
+    display: flex;
+    padding: 0;
+  }
+  .title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    color: #000000;
   }
 }

@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b2bec5+0,2989d8+93,2989d8+93,207cca+100,7db9e8+100,207cca+100 */
-  background: #222425; /* Old browsers */
+  background: cyan; /* Old browsers */
     /*background: -moz-linear-gradient(top,  #b2bec5 0%, #2989d8 93%, #2989d8 93%, #207cca 100%, #7db9e8 100%, #207cca 100%); /* FF3.6-15 */
     /*background: -webkit-linear-gradient(top,  #b2bec5 0%,#2989d8 93%,#2989d8 93%,#207cca 100%,#7db9e8 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
     /*background: linear-gradient(to bottom,  #b2bec5 0%,#2989d8 93%,#2989d8 93%,#207cca 100%,#7db9e8 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

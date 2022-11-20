@@ -53,12 +53,12 @@ i {
 }
 
 .containerSkills {
-  margin-top: 150px;
+  margin-top: 80px;
   column-count: 4;
   margin-inline: 185px;
   margin-bottom: 120px;
-
 }
+
 .items {
   margin-left: auto;
   margin-right: auto;
@@ -73,6 +73,7 @@ i {
 
 
 .contSkills {
+  display: none;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -80,19 +81,44 @@ i {
   right: 0;
   text-align: center;
   padding-top: 100px;
-  display: inline-grid;
+  /* display: inline-grid; */
   margin-top: 95px;
 }
 
 
 @media only screen and (max-width: 1000px) {
   .containerSkills {
-    text-align: justify;
+    display: none;
+    position: relative;
+    text-align: center;
     column-count: 2;
-    width: 250px ;
+    margin-top: 80px;
+    column-count: 4;
+    margin-inline: auto;
+    margin-bottom: 120px;
   }
   .item {
     width: 25px;
   }
+  .contSkills {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 100px;
+    /* display: inline-grid; */
+    margin-top: 95px;
+        display: none;
+
+  }
+
+  .item {
+    overflow: hidden;
+    width: min-content;
+    height: min-content;
+  }
+
 
 }
