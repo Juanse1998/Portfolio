@@ -8,7 +8,7 @@ import "./ContactForm.css";
 export default function ContactForm() {
   return (
     <>
-      <div className="contTitle">
+      <div className="titleContact">
         <span>Contactame</span>
       </div>
       <div class="containerContactForm">

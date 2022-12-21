@@ -16,7 +16,7 @@
 }
 
 i {
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 .logos {
@@ -73,32 +73,25 @@ i {
 
 
 .contSkills {
-  display: none;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 90px;
   /* display: inline-grid; */
-  margin-top: 95px;
 }
 
 
 @media only screen and (max-width: 1000px) {
   .containerSkills {
-    display: none;
     position: relative;
     text-align: center;
-    column-count: 2;
     margin-top: 80px;
-    column-count: 4;
+    column-count: 2;
     margin-inline: auto;
     margin-bottom: 120px;
-  }
-  .item {
-    width: 25px;
   }
   .contSkills {
     position: absolute;
@@ -107,11 +100,8 @@ i {
     left: 0;
     right: 0;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
     /* display: inline-grid; */
-    margin-top: 95px;
-        display: none;
-
   }
 
   .item {
@@ -120,5 +110,18 @@ i {
     height: min-content;
   }
 
-
+  .containerTitle {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-inline: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 0.35538em;
+    margin-left: auto;
+    margin-right: auto;
+    display: contents;
+  }
 }

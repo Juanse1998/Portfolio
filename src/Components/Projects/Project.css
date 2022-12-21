@@ -1,4 +1,5 @@
 .contTitle {
+  justify-content: center;
   margin-top: 25px;
   margin-bottom: 20px;
   margin-inline: 20px;
@@ -10,14 +11,11 @@
   letter-spacing: 0.35538em;
   margin-left: auto;
   margin-right: auto;
-  display: contents;
-  display: flow-root;
+  display: flex;
 }
 
 .containerProject {
-  padding-top: 100px;
-  margin-top: 95px;
-  margin-top: 640px;
+  padding-top: 900px;
   left: 0;
   right: 0;
 }
@@ -55,13 +53,13 @@
 .containerProjects {
   column-count: 1;
   text-align: -webkit-center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 .titleProject {
   width: 252px;
   margin-top: 2px;
-  padding-top: 40px;
+  padding-top: 20px;
   height: 20px;
   padding-bottom: 10px;
   font-size: 20px;
@@ -75,25 +73,63 @@
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 1000px) {
+  .contTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
   .containerProjects {
     column-count: 1;
   }
-  .containerProject {
-    padding-top: 100px;
-    margin-top: 95px;
-    margin-top: 640px;
+
+  .titleProjectTwo {
+    font-size: 20px;
     width: auto;
   }
+
   .titleProject {
+    font-size: 20px;
     width: auto;
   }
   .carousel-root {
-    width: 230px !important;
+    width: 500px !important;
+  }
+  .carousel .thumb{
+    width: 155px !important;
+  }
+  .carousel .control-next.control-arrow {
+    width: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .titleProjectTwo {
+    font-size: 20px;
+    width: auto;
+  }
+
+  .contTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .containerProjects {
+    column-count: 1;
+  }
+  .titleProject {
+    font-size: 20px;
+    width: auto;
+  }
+  .carousel-root {
+    width: 250px !important;
   }
   .carousel .thumb{
     width: 55px !important;
   }
   .carousel .control-next.control-arrow {
     width: 20px !important;
+  }
+  .h2 {
+    margin-block: 0 !important;
   }
 }
