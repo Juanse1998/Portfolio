@@ -9,18 +9,18 @@ export default function Navbar() {
     <i class="fas fa-times"></i>
     <nav class="navBar">
         <div class="navLink">
-          <ul class="textNavbar" href="/">
-             Sobre mi
+          <ul>
+            <a class="textNavbar" href="/">Sobre mi</a>
           </ul>
         </div>
         <div class="navLink">
-          <ul class="textNavbar" href="#skills">
-             Habilidades
+          <ul>
+            <a class="textNavbar" href="#skills">Habilidades</a>
           </ul>
         </div>
         <div class="navLink">
-          <ul class="textNavbar" href="#projects">
-            Proyectos
+          <ul>
+            <a class="textNavbar" href="#projects">Proyectos</a>
           </ul>
         </div>
         <Contact/>

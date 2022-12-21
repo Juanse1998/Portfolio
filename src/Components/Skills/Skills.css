@@ -54,12 +54,13 @@ i {
 
 .containerSkills {
   margin-top: 80px;
-  column-count: 4;
+  column-count: 3;
   margin-inline: 185px;
   margin-bottom: 120px;
 }
 
 .items {
+  text-decoration: none;
   margin-left: auto;
   margin-right: auto;
   margin-inline: 50px;
@@ -73,13 +74,13 @@ i {
 
 
 .contSkills {
-  position: absolute;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 150px;
   /* display: inline-grid; */
 }
 
@@ -94,7 +95,7 @@ i {
     margin-bottom: 120px;
   }
   .contSkills {
-    position: absolute;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     left: 0;
