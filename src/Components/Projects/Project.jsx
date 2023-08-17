@@ -40,6 +40,11 @@ export default function Project() {
             <div>
                 <img src={te3} />
             </div>
+            {/* <div>
+              <video>
+                <source src="https://www.youtube.com/watch?v=_fODiUkYBaI"/>
+              </video>
+            </div> */}
           </Carousel>
           <h2 className="titleProjectTwo">Weather App</h2>
           <Carousel>

@@ -1,0 +1,42 @@
+
+.about {
+  display: flex;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.titleAbout {
+  margin-top: 150px;
+  text-align: -webkit-center;
+  justify-content: center;
+  font-size: 30px !important;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  color: #000000;
+}
+
+.experience {
+  display: block;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.companyContent {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.description {
+  display: list-item;
+  padding-bottom: 40px;
+}
+
+.company {
+  text-decoration: underline;  
+}

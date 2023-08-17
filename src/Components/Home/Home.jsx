@@ -13,11 +13,11 @@ export default function Home() {
     <>
       <div className="container">
         <Me />
+        <About />
         <Skills />
         <Project />
         <ContactForm />
         {/* <div>
-          <About />
         </div> */}
       </div>
     </>

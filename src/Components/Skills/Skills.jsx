@@ -10,10 +10,30 @@ import mysql from "./mysql.png";
 import postman from "./postman.png";
 import sequelize from "./sequelize.png";
 import node from "./node.png";
+import ruby from "./ruby.png";
+import angular from "./angular.png";
+import angularjs from "./angularjs.png";
 
 
 import "./Skills.css";
 
+const array = [
+  react,
+  atom, 
+  css,
+  database,
+  docker,
+  github,
+  html,
+  java,
+  mysql,
+  postman,
+  sequelize,
+  node,
+  ruby,
+  angular,
+  angularjs
+];
 export default function Skills() {
   return (
     <>
@@ -163,16 +183,52 @@ export default function Skills() {
           </a>
         </div>
         <div className="item">
-         <a title="NodeJs" href="https://nodejs.org/en/docs/" target="blanck">
-          <img
-            class="logos"
-            src={node}
-            alt="logo node js"
-          />
-          <div className="tech-name">
-            <i>Node Js</i>
-          </div>
-        </a>
+          <a title="NodeJs" href="https://nodejs.org/en/docs/" target="blanck">
+            <img
+              class="logos"
+              src={node}
+              alt="logo node js"
+            />
+            <div className="tech-name">
+              <i>Node Js</i>
+            </div>
+          </a>
+        </div>
+        <div className="item">
+          <a title="Angular" href="https://angular.io/docs" target="blanck">
+            <img
+              class="logos"
+              src={angular}
+              alt="logo angular"
+            />
+            <div className="tech-name">
+              <i>Angular</i>
+            </div>
+          </a>
+        </div>
+        <div className="item">
+          <a title="AngularJs" href="https://docs.angularjs.org/guide" target="blanck">
+            <img
+              class="logos"
+              src={angularjs}
+              alt="logo angularjs"
+            />
+            <div className="tech-name">
+              <i>AngularJs</i>
+            </div>
+          </a>
+        </div>
+        <div className="item">
+          <a title="RoR" href="https://guides.rubyonrails.org" target="blanck">
+            <img
+              class="logos"
+              src={ruby}
+              alt="logo RoR"
+            />
+            <div className="tech-name">
+              <i>Ruby on Rails</i>
+            </div>
+          </a>
         </div>
       </div>
     </div>
