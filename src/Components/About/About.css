@@ -40,3 +40,29 @@
 .company {
   text-decoration: underline;  
 }
+
+
+@media only screen and (max-width: 550px) {
+  .description {
+    font-size: 12px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about {
+    font-size: 12px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .titleAbout {
+    margin-top: 70px;
+  }
+
+  .companyContent {
+    font-size: 14px;
+    width: auto;
+  }
+}

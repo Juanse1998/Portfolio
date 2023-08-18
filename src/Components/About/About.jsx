@@ -34,7 +34,7 @@ export default function About() {
           <a href="https://www.wisboo.com" target="blanck" className="company">Wisboo- </a><a className="role">Frontend developer:</a>
       </div>
       <div>
-        <a className="description">Abril 2022 - Junio 2023: Desarrolle nuevas funcionalidades y realice mantenimiento de las mismasutilizandoAngularJs,Javascript,CSSyHTML. Participéen reuniones de planificación y seguimiento de proyectos para garantizar la entrega oportuna de las soluciones. También participé en revisiones de código y en la mejora continua de los procesos de desarrollo.</a>
+        <a className="description">Abril 2022 - Junio 2023: Desarrolle nuevas funcionalidades y realice mantenimiento de las mismas utilizando AngularJs, Javascript, CSS y HTML. Participé en reuniones de planificación y seguimiento de proyectos para garantizar la entrega oportuna de las soluciones. También participé en revisiones de código y en la mejora continua de los procesos de desarrollo.</a>
       </div>
     </>
   );
