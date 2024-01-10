@@ -134,7 +134,7 @@ export default function Skills() {
             </div>
           </a>
         </div>
-        <div className="item">
+        {/* <div className="item">
           <a title="Java" href="https://dev.java/learn/" target="blanck">
             <img
               class="logos"
@@ -145,20 +145,20 @@ export default function Skills() {
               <i>Java</i>
             </div>
           </a>
-        </div>
-        <div className="item">
-         <a title="MySql" href="https://www.mysql.com" target="blanck">
-          <img
-            class="logos"
-            src={mysql}
-            alt="logo react"
-          />
-          <div className="tech-name">
-            <i>MySql</i>
-          </div>
-        </a>
-        </div>
-        <div className="item">
+        </div> */}
+        {/* <div className="item">
+          <a title="MySql" href="https://www.mysql.com" target="blanck">
+            <img
+              class="logos"
+              src={mysql}
+              alt="logo react"
+            />
+            <div className="tech-name">
+              <i>MySql</i>
+            </div>
+          </a>
+        </div> */}
+        {/* <div className="item">
           <a title="Postman" href="https://www.postman.com" target="blanck">
             <img
               class="logos"
@@ -169,7 +169,7 @@ export default function Skills() {
               <i>Postman</i>
             </div>
           </a>
-        </div>
+        </div> */}
         <div className="item">
           <a title="Sequelize" href="https://sequelize.org" target="blanck">
             <img

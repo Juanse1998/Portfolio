@@ -30,6 +30,7 @@ export default function Project() {
         </div>
         <div class="containerProjects">
           <h2 className="titleProject">Té quiero Eccomerce</h2>
+          <a className="descriptionProject">Este proyecto de Eccomerce fue desarrollado en equipo como proyecto final de un curso. Para su implementación, utilizamos tecnologías de vanguardia, incluyendo React para la interfaz de usuario, Node.js para el backend y CSS para el diseño y estilos.</a>
           <Carousel id="carousel" onClick={onClickItem}>
             <div>
                 <img src={te} />
@@ -46,7 +47,8 @@ export default function Project() {
               </video>
             </div> */}
           </Carousel>
-          <h2 className="titleProjectTwo">Weather App</h2>
+          <h2 className="titleProject">Weather App</h2>
+          <a className="descriptionProject">Una aplicación que te permite consultar el pronóstico del tiempo de cualquier ciudad, desarrollada utilizando las tecnologías de React, Node.js y CSS.</a>
           <Carousel>
             <div>
                 <img src={watherApp1} />
@@ -54,11 +56,11 @@ export default function Project() {
             <div>
                 <img src={watherApp2} />
             </div>
-            <div>
-                <img src={te3} />
-            </div>
+            {/* <div>
+                <img src={} />
+            </div> */}
           </Carousel>
-          <h2 className="titleProject">Notification UNRC</h2>
+          {/* <h2 className="titleProject">Notification UNRC</h2>
           <Carousel>
             <div>
               <img src={te} />
@@ -69,8 +71,9 @@ export default function Project() {
             <div>
               <img src={te3} />
             </div>
-          </Carousel>
-          <h2 className="titleProjectTwo">Videogames App</h2>
+          </Carousel> */}
+          <h2 className="titleProject">Videogames App</h2>
+          <a className="descriptionProject">Una aplicación dedicada a videojuegos que te permite buscar, agregar y destacar tus juegos favoritos. Fue desarrollada utilizando las tecnologías de React, Node.js y CSS.</a>
           <Carousel>
             <div>
               <img className="img1" id="img1" src={videogames1}/>

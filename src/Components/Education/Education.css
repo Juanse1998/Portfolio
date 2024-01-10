@@ -1,11 +1,11 @@
 
-.about {
+.Education {
   display: flex;
   padding-top: 40px;
   width: 100%;
 }
 
-.titleAbout {
+.titleEducation {
   font-family: Montserrat;
   margin-top: 150px;
   text-align: -webkit-center;
@@ -32,11 +32,6 @@
   font-weight: bold;
 }
 
-.contentDescription {
-  justify-content: center;
-  display: flex;
-}
-
 .description {
   padding-bottom: 40px;
 }
@@ -44,41 +39,6 @@
 .company {
   text-decoration: underline;  
 }
-
-hr {
-  height: 30vh;
-  width: 0.3vw;
-  border-width: 0;
-  color:#000;
-  background-color:#000;
-}
-
-.contentCircle {
-  justify-content: center;
-  display: flex;
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-.circleTwo {
-  display: flex;
-  background: black;
-  border-radius: 50%;
-  width: 17px;
-  height: 17px;
-  position: absolute;
-  margin-top: 139px;
-}
-
-.circleOne {
-  display: flex;
-  background: black;
-  border-radius: 50%;
-  width: 17px;
-  height: 17px;
-  position: absolute;
-}
-
 
 
 @media only screen and (max-width: 550px) {
@@ -90,7 +50,7 @@ hr {
     margin-top: 0px;
   }
 
-  .about {
+  .education {
     font-size: 12px;
     width: auto;
     margin-left: 10px;
@@ -99,7 +59,7 @@ hr {
 
   }
 
-  .titleAbout {
+  .titleEducation {
     margin-top: 40px;
   }
 

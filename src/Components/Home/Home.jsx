@@ -6,6 +6,7 @@ import Skills from "../Skills/Skills.jsx";
 import About from "../About/About.jsx";
 import ContactForm from "../Contact-form/ContactForm.jsx"
 import Me from "../Me/Me.jsx";
+import Education from "../Education/Education";
 import "./Home.css";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <div className="container">
         <Me />
         <About />
+        <Education />
         <Skills />
         <Project />
         <ContactForm />

@@ -1,5 +1,4 @@
 .contTitle {
-
   justify-content: center;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -25,6 +24,10 @@
   font-size: 15px;
 }
 
+.descriptionProject {
+  font-family: Montserrat;
+  font-style: normal;
+}
 
 .carousel-root {
   width: 500px;
@@ -79,6 +82,12 @@
     justify-content: center;
     font-size: 25px;
   }
+
+  .descriptionProject {
+    font-size: 12px;
+    width: auto;
+  }
+
   .containerProjects {
     column-count: 1;
   }
@@ -101,6 +110,7 @@
   .carousel .control-next.control-arrow {
     width: 20px !important;
   }
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -109,16 +119,21 @@
     width: auto;
   }
 
+  .descriptionProject {
+    font-size: 12px;
+    width: auto;
+  }
+
   .contTitle {
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .containerProjects {
     column-count: 1;
   }
   .titleProject {
-    font-size: 20px;
+    font-size: 15px;
     width: auto;
   }
   .carousel-root {
