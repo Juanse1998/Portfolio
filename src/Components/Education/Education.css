@@ -1,5 +1,5 @@
 
-.Education {
+.education {
   display: flex;
   padding-top: 40px;
   width: 100%;
@@ -34,6 +34,16 @@
 
 .description {
   padding-bottom: 40px;
+  font-size: 25px;
+}
+
+.henry {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-top: 60px;
 }
 
 .company {

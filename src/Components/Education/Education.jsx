@@ -15,7 +15,7 @@ export default function Education() {
           <a className="description">Actualmente me encuentro cursando la carrera de Licenciatura en informática en la Universidad Siglo XXI</a>
         </div>
       </div>
-      <div className="companyContent">
+      <div className="henry">
           <span className="company">Soy Henry-</span><span className="role">Fullstack developer</span>
       </div>
       <div>
