@@ -1,119 +1,105 @@
 
-.education {
-  display: flex;
-  padding-top: 40px;
-  width: 100%;
-}
-
 .titleEducation {
   font-family: Montserrat;
-  margin-top: 150px;
-  text-align: -webkit-center;
-  justify-content: center;
-  font-size: 30px !important;
+  font-size: 50px;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
-  display: flex;
   color: #000000;
-}
-
-.experience {
-  display: block;
-  padding-top: 40px;
-  width: 100%;
-}
-
-.companyContent {
-  justify-content: center;
+  margin-top: 200px;
   display: flex;
-  padding-bottom: 20px;
-  text-decoration: underline;
-  font-weight: bold;
+  justify-content: center;
 }
 
 .descriptionEducation {
-  text-indent: 10px;
+  display: flex;
+  font-size: 20px;
   line-height: 45px;
-  padding-bottom: 40px;
-  font-size: 25px;
+  left: 50px;
+  margin-top: 70px;
+  margin-left: 20px;
 }
 
-.henry {
+.careerXXI {
+  display: flex;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.nameSchool {
+  font-size: 30px;
+  display: flex;
+  position: absolute;
+}
+
+.nameBootcamp {
+  font-size: 30px;
+  display: flex;
+  position: absolute;
+}
+
+.career {
+  display: flex;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.education {
+  display: grid;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.school {
   justify-content: center;
   display: flex;
   padding-bottom: 20px;
-  text-decoration: underline;
-  font-weight: bold;
   padding-top: 60px;
 }
 
-.xxi {
+.bootcamp {
   justify-content: center;
   display: flex;
   padding-bottom: 20px;
-  text-decoration: underline;
-  font-weight: bold;
   padding-top: 60px;
-}
-
-.educationContent {
-  justify-content: center;
-  display: flex;
-  padding-bottom: 20px;
-  text-decoration: underline;
-  font-weight: bold;
 }
 
 
 
 @media only screen and (max-width: 600px) {
+  
+
+  .titleEducation {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
   .descriptionEducation {
-    font-size: 12px;
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 150px;
-    text-indent: 7px;
+    font-size: 11px;
+    line-height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .nameSchool {
+    font-size: 20px;
+  }
+  
+  .nameBootcamp {
+    font-size: 20px;
   }
 
-  .education {
-    font-size: 12px;
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    display: flex;
-    position: absolute;
+  .careerXXI {
+    font-size: 14px;
   }
 
   .career {
-    font-size: 11px;
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 70px;
-    display: flex;
-    position: absolute;
-  }
-
-  .titleEducation {
-    margin-top: 30px;
-  }
-
-  .companyContent {
     font-size: 14px;
-    width: auto;
-    margin-top: 600px;
-  }
-
-  .henry {
-    padding-bottom: 100px;
-    padding-top: 20px;
   }
   
-  .xxi {
-    padding-bottom: 20px;
-    padding-top: 60px;
-  }
 }
