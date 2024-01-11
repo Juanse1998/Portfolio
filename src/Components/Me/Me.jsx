@@ -6,7 +6,7 @@ export default function Me() {
   return (
     <>
     <div className="presentation">
-      <h3 id="about" className="titleAbout">
+      <h3 id="about" className="titleMe">
         Sobre mi
       </h3>
       <div className="about">

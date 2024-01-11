@@ -18,7 +18,7 @@
 
 .titleExperience {
   font-family: Montserrat;
-  font-size: 50px !important;
+  font-size: 50px;
   font-style: normal;
   font-weight: bold;
   color: #000000;
@@ -46,35 +46,51 @@
   display: flex;
 }
 
-.description {
-  padding-bottom: 40px;
+.descriptionAbout {
+  display: flex;
+  position: absolute;
   font-size: 20px;
   line-height: 45px;
+  left: 50px;
+  top: 45px;
+  width: 82%;
+  margin-left: 20px;
 }
 
 .company {
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .role {
-  font-size: 30px;
+  font-size: 20px;
 }
+
+
+.lineTwo {
+  height: 230px;
+}
+
+.lineThree {
+  height: 350px;
+}
+
 
 hr {
   display: block;
-  height: 145px;
+  height: 150px;
   width: 0.3vw;
   border-width: 0;
   color:#000;
   background-color:#000;
+  margin-left: 6px;
 }
 
 .contentCircle {
-  justify-content: center;
   display: flex;
   width: 100%;
   margin-bottom: 50px;
+  margin-left: 30px
 }
 
 .circleTwo {
@@ -84,7 +100,27 @@ hr {
   width: 17px;
   height: 17px;
   position: absolute;
-  margin-top: 139px;
+  margin-top: 150px;
+}
+
+.circleEndWisboo {
+  display: flex;
+  background: black;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  margin-top: 230px;
+}
+
+.circleEndWisbooTwo {
+  display: flex;
+  background: black;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  margin-top: 350px;
 }
 
 .circleOne {
@@ -97,14 +133,53 @@ hr {
 }
 
 
+.startImajine {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 30px;
+}
 
-@media only screen and (max-width: 550px) {
-  .description {
-    font-size: 12px;
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0px;
+.endImajine {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: 147px;
+  margin-left: 30px;
+}
+
+.endWisboo {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 30px;
+}
+
+.endWisbooTwo {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: 345px;
+  margin-left: 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .titleExperience {
+    font-size: 30px;
+  }
+
+  .descriptionAbout {
+    font-size: 9px;
+    width: 60%;
+    right: 20px;
+    left: 40px;
+    top: 60px;
+    line-height: 20px;
   }
 
   .about {
@@ -120,8 +195,75 @@ hr {
     margin-top: 40px;
   }
 
+  .company {
+    font-size: 12px;
+  }
+
+  .role {
+    font-size: 12px;
+  }
+
   .companyContent {
     font-size: 14px;
     width: auto;
+  }
+  
+  .lineTwo {
+    height: 230px;
+  }
+  
+  .lineThree {
+    height: 290px;
+  }
+  
+  .contentCircle {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 30px
+  }
+
+  .circleOne {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .circleTwo {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .circleEndWisboo {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .circleEndWisbooTwo {
+    width: 12px;
+    height: 12px;
+    margin-top: 290px;
+  }
+   
+  .startImajine {
+    font-size: 11px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+  
+  .endImajine {
+    font-size: 11px;
+    margin-top: 147px;
+    margin-left: 30px;
+  }
+  
+  .endWisboo {
+    font-size: 11px;
+    margin-top: 225px;
+    margin-left: 30px;
+  }
+  
+  .endWisbooTwo {
+    font-size: 11px;
+    margin-top: 290px;
+    margin-left: 30px;
   }
 }
