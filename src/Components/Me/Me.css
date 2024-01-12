@@ -1,6 +1,6 @@
 
 .presentation {
-    display: inline-grid;
+    display: flex;
     justify-items: center;
     margin-top: 200px;
   }
@@ -17,13 +17,30 @@
     font-family: Montserrat;
     justify-content: center;
     font-size: 50px;
+    margin-top: 10px;
     font-style: normal;
     font-weight: bold;
     display: inline-block;
     color: #000000;
   }
+
+  .rectangle {
+    display: flex;
+    content: ''; /* Necesario para que el pseudo-elemento sea visible */
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    top: 730px; /* Ajusta la posición vertical según tus necesidades */
+    margin-right: 75px; /* Ajusta la posición horizontal según tus necesidades */
+    margin-left: 75px;
+    border: 8px solid rgba(13, 138, 207, 0.12); /* Color y grosor del borde del rectángulo */
+    box-sizing: border-box; /* Asegura que el borde esté incluido en las dimensiones */
+    border-radius: 30px;
+  }
+
+
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .about {
       font-size: 12px;
       width: auto;
@@ -34,7 +51,20 @@
     }
   
     .titleMe {
-      margin-top: 40px;
-      font-size: 30px;
+      margin-top: 1px;
+      font-size: 20px;
     }
+
+    .rectangle {
+      display: flex;
+      content: ''; /* Necesario para que el pseudo-elemento sea visible */
+      position: absolute;
+      top: 750px; /* Ajusta la posición vertical según tus necesidades */ /* Ajusta la posición horizontal según tus necesidades */
+      border: 5px solid rgba(13, 138, 207, 0.12); /* Color y grosor del borde del rectángulo */
+      box-sizing: border-box; /* Asegura que el borde esté incluido en las dimensiones */
+      border-radius: 30px;
+      height: 40px;
+      width: 150px;
+    }
+
   }

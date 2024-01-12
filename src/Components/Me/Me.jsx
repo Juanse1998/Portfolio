@@ -6,9 +6,12 @@ export default function Me() {
   return (
     <>
     <div className="presentation">
+    <div className="rectangle">
       <h3 id="about" className="titleMe">
         Sobre mi
       </h3>
+    </div>
+
       <div className="about">
         <p>
           ¡Hola! Mi nombre es Juan Segundo Sosa, y soy un apasionado programador Full-Stack con una amplia experiencia en diversas tecnologías.
