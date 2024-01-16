@@ -16,7 +16,7 @@ export default function Education() {
             <span className="nameBootcamp">Soy Henry</span><span className="career">Fullstack developer</span>
         </div>
         <div>
-          <a className="descriptionEducation">Junio 2021 - Abril 2022: Desarrollo de nuevas funcionalidades y mantenimiento de aplicación web tanto en frontend como en backend utilizando Ruby on Rails, AngularJs, Javascript.</a>
+          <a className="descriptionEducation">En el bootcamp de Soy Henry, me sumergí en un aprendizaje acelerado centrado en tecnologías clave para el desarrollo web. Me especialicé en HTML, CSS, y JavaScript para construir interfaces atractivas. Además, adquirí experiencia en React para crear aplicaciones interactivas y en Node.js para desarrollar servidores eficientes. También exploré TypeScript para mejorar la calidad de mis proyectos mediante el tipado estático. Esta experiencia integral me preparó para abordar desafíos en el desarrollo web con confianza y aplicar mis habilidades de manera efectiva en entornos profesionales. Estoy entusiasmado/a por seguir creciendo como desarrollador/a de software.</a>
         </div>
       </div>
     </>
