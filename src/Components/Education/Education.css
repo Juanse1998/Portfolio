@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: bold;
   color: #000000;
-  margin-top: 200px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -45,15 +45,16 @@
 
 .education {
   display: grid;
-  padding-top: 40px;
+  margin-top: 160px;
   width: 100%;
+  justify-items: center;
 }
 
 .school {
   justify-content: center;
   display: flex;
   padding-bottom: 20px;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 .bootcamp {
@@ -61,6 +62,17 @@
   display: flex;
   padding-bottom: 20px;
   padding-top: 60px;
+}
+
+.rectangleEducation {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 100px;
+  border: 8px solid rgba(13, 138, 207, 0.12); /* Color y grosor del borde del rectángulo */
+  box-sizing: border-box; /* Asegura que el borde esté incluido en las dimensiones */
+  border-radius: 30px;
 }
 
 

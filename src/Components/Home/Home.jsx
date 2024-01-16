@@ -1,6 +1,4 @@
 import { React } from "react";
-import Navbar from "../NavBar/Navbar";
-import Contact from "../Contact/Contact.jsx";
 import Project from "../Projects/Project.jsx";
 import Skills from "../Skills/Skills.jsx";
 import About from "../About/About.jsx";

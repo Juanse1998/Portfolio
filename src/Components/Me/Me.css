@@ -1,8 +1,9 @@
 
 .presentation {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     margin-top: 200px;
+    position: relative;
   }
   
   .about {
@@ -11,11 +12,11 @@
     width: 100%;
     font-size: 25px;
     line-height: 45px;
+    margin-top: 60px;
   }
   
   .titleMe {
     font-family: Montserrat;
-    justify-content: center;
     font-size: 50px;
     margin-top: 10px;
     font-style: normal;
@@ -25,14 +26,12 @@
   }
 
   .rectangle {
+    justify-content: center;
     display: flex;
-    content: ''; /* Necesario para que el pseudo-elemento sea visible */
     position: absolute;
     width: 280px;
     height: 100px;
-    top: 730px; /* Ajusta la posición vertical según tus necesidades */
-    margin-right: 75px; /* Ajusta la posición horizontal según tus necesidades */
-    margin-left: 75px;
+    margin-bottom: 20px;
     border: 8px solid rgba(13, 138, 207, 0.12); /* Color y grosor del borde del rectángulo */
     box-sizing: border-box; /* Asegura que el borde esté incluido en las dimensiones */
     border-radius: 30px;

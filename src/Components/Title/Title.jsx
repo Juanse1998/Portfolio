@@ -33,9 +33,9 @@ export default function Title() {
             <img src={logo} alt="Logo" class="imagen-two"  />
           </div>
           <div className="contImagen">
+            <a href="https://wa.link/zl8dhc" target="_blank"><img src={wpp} alt="Logo" class="wpp" /></a>
             <a href="https://www.linkedin.com/in/juan-segundo-sosa-081a4a180/" target="_blank"><img src={linkedin} alt="Logo" class="linkedin" /></a>
             <a href="https://github.com/Juanse1998" target="_blank"><img src={github} alt="Logo" class="github" /></a>
-            <a href="https://wa.link/zl8dhc" target="_blank"><img src={wpp} alt="Logo" class="wpp" /></a>
           </div>
         </Fade>
       </div>

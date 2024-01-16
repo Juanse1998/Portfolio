@@ -1,31 +1,29 @@
-import { React } from "react";
-import Contact from "../Contact/Contact.jsx";
+import  React, { useState } from "react";
 import "./NavBar.css";
 
 export default function Navbar() {
-  return (
-    <div>
-    <i class="fas fa-bars"></i>
-    <i class="fas fa-times"></i>
-    <nav class="navBar">
-        <div class="navLink">
-          <ul>
-            <a class="textNavbar" href="#about">Sobre mi</a>
-          </ul>
-        </div>
-        <div class="navLink">
-          <ul>
-            <a class="textNavbar" href="#skills">Habilidades</a>
-          </ul>
-        </div>
-        <div class="navLink">
-          <ul>
-            <a class="textNavbar" href="#projects">Proyectos</a>
-          </ul>
-        </div>
-        <Contact/>
-    </nav>
 
+  const [menuAbierto, setMenuAbierto] = useState(false);
+  const toggleMenu = () => {
+    setMenuAbierto(!menuAbierto);
+  };
+  
+  return (
+    <div className="menu-container">
+      <div className={`menu-hamburguesa ${menuAbierto ? 'abierto' : ''}`} onClick={toggleMenu}>
+        <div className="barra"></div>
+        <div className="barra"></div>
+        <div className="barra"></div>
+      </div>
+      <div className={`menu ${menuAbierto ? 'abierto' : ''}`}>
+        <ul>
+          <li><a className="textNavBar" href="#about">Sobre mi</a></li>
+          <li><a className="textNavBar" href="#education">Educación</a></li>
+          <li><a className="textNavBar" href="#experience">Experiencia</a></li>
+          <li><a className="textNavBar" href="#skills">Skills</a></li>
+          <li><a className="textNavBar" href="#contact">Contactame</a></li>
+        </ul>
+      </div>
     </div>
   );
-}
+};  

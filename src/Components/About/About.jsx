@@ -5,9 +5,12 @@ import "./About.css";
 export default function About() {
   return (
     <>
-      <h3 className="titleExperience">
-        Experiencia
-      </h3>
+      <div className="comExperience">
+      <div className="rectangleExperience">
+        <h3 className="titleExperience">
+          Experiencia
+        </h3>
+      </div>
       <div className="experience" id="experience">
         <div className="companyContent">
           <a href="https://imajine.com" target="blanck" className="company">Imajine Studio-</a><a className="role">Fullstack developer:</a>
@@ -61,6 +64,7 @@ export default function About() {
           <h6 className="endWisbooTwo">Junio 2023</h6>
         </div>
       </Fade>
+      </div>
     </>
   );
 }

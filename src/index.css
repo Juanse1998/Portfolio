@@ -10,8 +10,6 @@ body {
   /* background: cyan; Old browsers */
   background-image:  url("background.svg");
   background-size: 100%;
-  /* background-attachment: fixed; */
-  background-repeat:repeat-y;
   /* background-repeat:repeat-y;
   background-clip: content-box; */
     /*background: -moz-linear-gradient(top,  #b2bec5 0%, #2989d8 93%, #2989d8 93%, #207cca 100%, #7db9e8 100%, #207cca 100%); /* FF3.6-15 */

@@ -5,9 +5,11 @@ export default function Education() {
   return (
     <>
       <div className="education">
-        <span className="titleEducation" id="education">
-          Educación
-        </span>
+        <div className="rectangleEducation">
+          <span className="titleEducation" id="education">
+            Educación
+          </span>
+        </div>
         <div className="school">
           <span className="nameSchool">Universidad Siglo XXI</span><span className="careerXXI">Licenciatura en informática</span>
           <a className="descriptionEducation">Actualmente me encuentro cursando la carrera de Licenciatura en informática en la Universidad Siglo XXI</a>
