@@ -39,7 +39,7 @@ export default function Skills() {
     <>
     <div className="contSkills" id="skills">
       <div className="containerTitle">
-          <span>HABILIDADES</span>
+          <span>Skills</span>
       </div>
       <div className="containerSkills">
         <div className="item" href="">

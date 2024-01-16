@@ -21,23 +21,10 @@
     margin-top: 10px;
     font-style: normal;
     font-weight: bold;
-    display: inline-block;
-    color: #000000;
-  }
-
-  .rectangle {
-    justify-content: center;
     display: flex;
     position: absolute;
-    width: 280px;
-    height: 100px;
-    margin-bottom: 20px;
-    border: 8px solid rgba(13, 138, 207, 0.12); /* Color y grosor del borde del rectángulo */
-    box-sizing: border-box; /* Asegura que el borde esté incluido en las dimensiones */
-    border-radius: 30px;
+    color: #000000;
   }
-
-
   
   @media only screen and (max-width: 800px) {
     .about {
@@ -51,7 +38,7 @@
   
     .titleMe {
       margin-top: 1px;
-      font-size: 20px;
+      font-size: 30px;
     }
 
     .rectangle {
