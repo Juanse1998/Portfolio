@@ -17,7 +17,7 @@
 }
 
 .titleExperience {
-  left: 41%;
+  align-items: center;
   position: absolute;
   font-family: Montserrat;
   font-size: 50px;
@@ -25,7 +25,7 @@
   font-weight: bold;
   color: #000000;
   display: flex;
-  margin-top: 180px;
+  margin-top: 100px;
 
 }
 
@@ -173,16 +173,17 @@ hr {
 }
 
 .contentTitle {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   
   .titleExperience {
-    left: 27%;
     position: absolute;
     font-size: 30px;
-    margin-top: 160px;
+    margin-top: 100px;
   }
 
   .descriptionAbout {

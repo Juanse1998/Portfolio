@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b2bec5+0,2989d8+93,2989d8+93,207cca+100,7db9e8+100,207cca+100 */
   /* background: cyan; Old browsers */
-  background-image:  url("background.svg");
+  background-color:  rgb(142, 191, 232);
   background-size: 100%;
   /* background-repeat:repeat-y;
   background-clip: content-box; */
@@ -39,7 +39,6 @@ html {
   body {
     margin: 0;
     padding: 0%;
-    background: url("background.svg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
