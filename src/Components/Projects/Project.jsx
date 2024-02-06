@@ -8,30 +8,23 @@ import videogames3 from "./videogames3.png";
 import videogames4 from "./videogames4.png";
 import watherApp1 from "./watherApp1.png";
 import watherApp2 from "./watherApp2.png";
-import ModalImage from "../ModalImage/ModalImage.jsx";
 
 import "./Project.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
 export default function Project() {
-  const [showModal, setShowModal] = useState(false);
 
-  const onClickItem = () => {
-  console.log('acaaaa', ModalImage);
-  <ModalImage />
-    // img[0].style.transform = 'scale(0)';
-  }
   return (
     <>
-      <div id="projects" class="containerProject">
+      <div id="projects" className="containerProject">
         <div className="contTitle">
           <span>Mis Proyectos</span>
         </div>
-        <div class="containerProjects">
+        <div className="containerProjects">
           <h2 className="titleProject">Té quiero Eccomerce</h2>
           <a className="descriptionProject">Este proyecto de Eccomerce fue desarrollado en equipo como proyecto final de un curso. Para su implementación, utilizamos tecnologías de vanguardia, incluyendo React para la interfaz de usuario, Node.js para el backend y CSS para el diseño y estilos.</a>
-          <Carousel id="carousel" onClick={onClickItem}>
+          <Carousel id="carousel">
             <div>
                 <img src={te} />
             </div>

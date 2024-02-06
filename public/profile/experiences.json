@@ -1,0 +1,31 @@
+{
+  "experiences": [
+      {
+          "title": "Fullstack developer",
+          "subtitle": "Imajine Studio",
+          "workType": "Full-time",
+          "workDescription": [
+            "Desarrollo de aplicaciones móviles utilizando React Native, Javascript y CSS."
+          ],
+          "dateText": "03/2021 – 06/2021"
+      },
+      {
+          "title": "Fullstack developer",
+          "subtitle": "Wisboo",
+          "workType": "Full-time",
+          "workDescription": [
+              "Desarrollo de nuevas funcionalidades y mantenimiento de aplicación web tanto en frontend como en backend utilizando Ruby on Rails, AngularJs, Javascript."
+          ],
+          "dateText": "06/2021 – 04/2022"
+      },
+      {
+          "title": "Frontend developer",
+          "subtitle": "Wisboo",
+          "workType": "Full-time",
+          "workDescription": [
+              "Desarrolle nuevas funcionalidades y realice mantenimiento de las mismas utilizando AngularJs, Javascript, CSS y HTML. Participe en reuniones de planificación y seguimiento de proyectos para garantizar la entrega oportuna de las soluciones. También participé en revisiones de código y en la mejora continua de los procesos de desarrollo"
+          ],
+          "dateText": "04/2022 – 06/2023"
+      }
+  ]
+}

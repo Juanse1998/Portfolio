@@ -13,7 +13,7 @@ import node from "./node.png";
 import ruby from "./ruby.png";
 import angular from "./angular.png";
 import angularjs from "./angularjs.png";
-
+import React from 'react';
 
 import "./Skills.css";
 
@@ -45,7 +45,7 @@ export default function Skills() {
         <div className="item" href="">
           <a title="React" href="https://es.reactjs.org" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={react}
               alt="logo react"
               style={{
@@ -61,7 +61,7 @@ export default function Skills() {
         <div className="item">
           <a title="React-Native" href="https://reactnative.dev" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={atom}
               alt="logo react"
             />
@@ -73,7 +73,7 @@ export default function Skills() {
         <div className="item">
            <a title="CSS" href="https://developer.mozilla.org/es/docs/Web/CSS" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={css}
               alt="logo react"
             />
@@ -85,7 +85,7 @@ export default function Skills() {
           <div className="item">
             <a title="SQL" href="https://dev.mysql.com/doc/" target="blanck">
               <img
-                class="logos"
+                className="logos"
                 src={database}
                 alt="logo react"
                 style={{
@@ -101,7 +101,7 @@ export default function Skills() {
         <div className="item">
           <a title="Docker" href="https://hub.docker.com/_/docker-docs" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={docker}
               alt="logo react"
             />
@@ -113,7 +113,7 @@ export default function Skills() {
         <div className="item">
           <a title="GitHub" href="https://github.com" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={github}
               alt="logo react"
             />
@@ -125,7 +125,7 @@ export default function Skills() {
         <div className="item">
           <a title="GitHub" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={html}
               alt="logo react"
             />
@@ -137,7 +137,7 @@ export default function Skills() {
         {/* <div className="item">
           <a title="Java" href="https://dev.java/learn/" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={java}
               alt="logo react"
             />
@@ -149,7 +149,7 @@ export default function Skills() {
         {/* <div className="item">
           <a title="MySql" href="https://www.mysql.com" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={mysql}
               alt="logo react"
             />
@@ -161,7 +161,7 @@ export default function Skills() {
         {/* <div className="item">
           <a title="Postman" href="https://www.postman.com" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={postman}
               alt="logo react"
             />
@@ -173,7 +173,7 @@ export default function Skills() {
         <div className="item">
           <a title="Sequelize" href="https://sequelize.org" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={sequelize}
               alt="logo react"
             />
@@ -185,7 +185,7 @@ export default function Skills() {
         <div className="item">
           <a title="NodeJs" href="https://nodejs.org/en/docs/" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={node}
               alt="logo node js"
             />
@@ -197,7 +197,7 @@ export default function Skills() {
         <div className="item">
           <a title="Angular" href="https://angular.io/docs" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={angular}
               alt="logo angular"
             />
@@ -209,7 +209,7 @@ export default function Skills() {
         <div className="item">
           <a title="AngularJs" href="https://docs.angularjs.org/guide" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={angularjs}
               alt="logo angularjs"
             />
@@ -221,7 +221,7 @@ export default function Skills() {
         <div className="item">
           <a title="RoR" href="https://guides.rubyonrails.org" target="blanck">
             <img
-              class="logos"
+              className="logos"
               src={ruby}
               alt="logo RoR"
             />

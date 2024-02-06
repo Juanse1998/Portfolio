@@ -10,13 +10,17 @@
     "browserslist": "^4.21.4",
     "ci": "^2.2.0",
     "clean": "^4.0.2",
-    "react": "^17.0.2",
+    "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.7",
-    "react-dom": "^17.0.2",
+    "react-bootstrap": "^2.10.0",
+    "react-chrono": "^2.4.2",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
+    "react-markdown": "^9.0.1",
     "react-player": "^2.12.0",
     "react-redux": "^7.2.3",
     "react-responsive-carousel": "^3.2.23",
+    "react-reveal": "^1.2.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^5.0.1",
@@ -25,6 +29,7 @@
     "sass": "^1.32.8",
     "scss": "^0.2.4",
     "styled-components": "^5.2.3",
+    "vertical-timeline-component-for-react": "^1.0.7",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -37,7 +42,14 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "prefer-template": 0,
+      "react/no-children-prop": [0],
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-uses-react": "off",
+      "linebreak-style": 0
+    }
   },
   "browserslist": {
     "production": [

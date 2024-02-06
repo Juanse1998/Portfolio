@@ -1,0 +1,43 @@
+.vertical {
+  justify-content: center;
+}
+
+.vertical_alternating {
+  justify-content: center;
+}
+
+.eITYbJ {
+  background-color: rgba(118, 84, 255, 0.09) !important;
+}
+
+.dHWHqM {
+  display: none !important;
+  background-color: rgba(118, 84, 255, 0.09) !important;
+}
+
+.ceCIji {
+  color: #ffffff !important;
+  font-size: 1.3rem;
+}
+
+.hFrYSD {
+  display: none !important;
+}
+
+.jlQVsy {
+  background: none !important;
+  color: #ffffff !important;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 578px) {
+  div.vertical-item-row > div:nth-child(1) {
+      width: 20% !important;
+  }
+  div.vertical-item-row > div:nth-child(2) {
+      width: 65% !important;
+  }
+  div.vertical-item-row > div:nth-child(3) {
+      width: 15% !important;
+  }
+}

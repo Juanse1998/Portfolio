@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className={`menu ${menuAbierto ? 'abierto' : ''}`}>
         <ul>
           <li><a className="textNavBar" href="#about">Sobre mi</a></li>
-          <li><a className="textNavBar" href="#education">Educación</a></li>
+          <li><a className="textNavBar" href="#educationTwo">Educación</a></li>
           <li><a className="textNavBar" href="#experience">Experiencia</a></li>
           <li><a className="textNavBar" href="#skills">Skills</a></li>
           <li><a className="textNavBar" href="#contact">Contactame</a></li>

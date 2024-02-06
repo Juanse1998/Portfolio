@@ -12,30 +12,30 @@ import { Fade } from "react-awesome-reveal";
 export default function Title() {
   return (
     <>
-      <div class="me" id="contact">
+      <div className="me" id="contact">
         <Fade direction="left" triggerOnce="true">
         <div className="name">
-          <span class="title">
+          <span className="titleApp">
             Juan Segundo Sosa
           </span>
           <div className="contSubtitle">
-            <span class="subtitle">
+            <span className="subtitle">
               Full Stack Developer
             </span>
           </div>
-          <div class="imagen-one">
-            <img src={logo_two} alt="Logo" class="imagen-one"  />
+          <div className="imagen-one">
+            <img src={logo_two} alt="Logo" className="imagen-one"  />
           </div>
         </div>
         </Fade>
         <Fade direction="right" triggerOnce="true">
-          <div class="redes">
-            <img src={logo} alt="Logo" class="imagen-two"  />
+          <div className="redes">
+            <img src={logo} alt="Logo" className="imagen-two"  />
           </div>
           <div className="contImagen">
-            <a href="https://wa.link/zl8dhc" target="_blank"><img src={wpp} alt="Logo" class="wpp" /></a>
-            <a href="https://www.linkedin.com/in/juan-segundo-sosa-081a4a180/" target="_blank"><img src={linkedin} alt="Logo" class="linkedin" /></a>
-            <a href="https://github.com/Juanse1998" target="_blank"><img src={github} alt="Logo" class="github" /></a>
+            <a href="https://wa.link/zl8dhc" target="_blank" rel="noreferrer" ><img src={wpp} alt="Logo" className="wpp" /></a>
+            <a href="https://www.linkedin.com/in/juan-segundo-sosa-081a4a180/" target="_blank" rel="noreferrer"><img src={linkedin} alt="Logo" className="linkedin" /></a>
+            <a href="https://github.com/Juanse1998" target="_blank" rel="noreferrer"><img src={github} alt="Logo" className="github" /></a>
           </div>
         </Fade>
       </div>
