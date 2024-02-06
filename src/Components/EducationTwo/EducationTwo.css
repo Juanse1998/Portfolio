@@ -8,7 +8,9 @@
 
 .eITYbJ {
   background-color: rgba(118, 84, 255, 0.09) !important;
+  border-radius: 25px !important;
 }
+
 
 .dHWHqM {
   display: none !important;
@@ -17,7 +19,7 @@
 
 .ceCIji {
   color: #ffffff !important;
-  font-size: 1.3rem;
+  font-size: 1.3rem !important;
 }
 
 .hFrYSD {
@@ -27,10 +29,22 @@
 .jlQVsy {
   background: none !important;
   color: #ffffff !important;
-  font-size: 1.3rem;
+  font-size: 1.3rem !important;
+}
+.jHGHrJ {
+  font-size: 1rem !important;
 }
 
-@media only screen and (max-width: 578px) {
+.react-reveal {
+  width: auto !important;
+}
+
+.jaQaOm {
+  font-size: 1.02rem !important;
+}
+
+
+@media only screen and (max-width: 708px) {
   div.vertical-item-row > div:nth-child(1) {
       width: 20% !important;
   }
@@ -40,4 +54,5 @@
   div.vertical-item-row > div:nth-child(3) {
       width: 15% !important;
   }
+
 }
