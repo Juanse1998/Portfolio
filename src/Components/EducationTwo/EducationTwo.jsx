@@ -68,7 +68,7 @@ function EducationTwo(props) {
                   cardDescription: '1rem',
                   cardText: '1.02rem',
                   cardTitle: '1.3rem',
-                  title: '1rem',
+                  title: '1.4rem',
                 }}
                 classNames={{
                   card: 'my-card',

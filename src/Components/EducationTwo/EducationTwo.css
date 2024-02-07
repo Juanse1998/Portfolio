@@ -28,42 +28,14 @@
   font-size: 1.10rem !important;
 }
 
-/* .eITYbJ {
-  background-color: rgba(118, 84, 255, 0.09) !important;
-  border-radius: 25px !important;
+.TitleWrapper-sc-13izrht-0 {
+  overflow: visible !important;
 }
 
-
-.dHWHqM {
-  display: none !important;
-  background-color: rgba(118, 84, 255, 0.09) !important;
-}
-
-.ceCIji {
-  color: #ffffff !important;
-  font-size: 1.3rem !important;
-}
-
-.hFrYSD {
+.TimelineControlContainer-sc-cif21b-4 {
   display: none !important;
 }
 
-.jlQVsy {
-  background: none !important;
-  color: #ffffff !important;
-  font-size: 1.3rem !important;
-}
-.jHGHrJ {
-  font-size: 1rem !important;
-}
-
-.react-reveal {
-  width: auto !important;
-}
-
-.jaQaOm {
-  font-size: 1.02rem !important;
-} */
 
 
 @media only screen and (max-width: 708px) {
@@ -77,10 +49,6 @@
       width: 15% !important;
   }
 
-  .TitleWrapper-sc-13izrht-0 {
-    overflow: none !important;
-  }
-
   .TimelineContentDetails-sc-d7qjm1-5 {
     font-size: 0.8rem !important;
   }
@@ -91,6 +59,10 @@
 
   .my-title {
     font-size: 0.8rem !important;
+  }
+
+  .TitleWrapper-sc-13izrht-0 {
+    overflow: visible !important;
   }
 
 }
