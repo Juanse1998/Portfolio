@@ -48,28 +48,38 @@ function EducationTwo(props) {
           <div style={{ width }} className="section-content-container">
             <Container>
               <Chrono
-                hideControls
                 allowDynamicUpdate
                 useReadMore={false}
                 items={data.education}
                 cardHeight={250}
                 mode={mode}
+                className="my-timeline"
                 theme={{
                   primary: '#3D84C6',
-                  secondary: '#3D84C6',
+                  secondary: 'white',
                   cardForeColor: 'black',
-                  titleColor: 'white'
+                  titleColor: 'white',
+                  cardBgColor: 'rgba(118, 84, 255, 0.09)',
+                  titleColor: 'white',
+                  titleColorActive: 'red',
+                }}
+                fontSizes={{
+                  cardSubtitle: '1rem',
+                  cardDescription: '1rem',
+                  cardText: '1.02rem',
+                  cardTitle: '1.3rem',
+                  title: '1rem',
+                }}
+                classNames={{
+                  card: 'my-card',
+                  cardMedia: 'my-card-media',
+                  cardSubTitle: 'my-card-subtitle',
+                  cardText: 'my-card-text',
+                  cardTitle: 'my-card-title',
+                  controls: 'my-controls',
+                  title: 'my-title',
                 }}
               >
-                <div className="chrono-icons">
-                  {data.education.map((education) => (education.icon ? (
-                    <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
-                    />
-                  ) : null))}
-                </div>
               </Chrono>
             </Container>
           </div>

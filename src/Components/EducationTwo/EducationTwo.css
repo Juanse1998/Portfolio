@@ -6,7 +6,28 @@
   justify-content: center;
 }
 
-.eITYbJ {
+.my-card-title {
+  color: #ffffff !important;
+  font-size: 1.3rem !important;
+}
+
+.card-text {
+  font-size: 1.02rem !important;
+}
+
+.my-title {
+  background: none !important;
+  color: #ffffff !important;
+}
+
+.TriangleIconWrapper-sc-d7qjm1-11 {
+  display: none !important;
+}
+
+.TimelineContentDetails-sc-d7qjm1-5 {
+  font-size: 1.10rem !important;
+}
+/* .eITYbJ {
   background-color: rgba(118, 84, 255, 0.09) !important;
   border-radius: 25px !important;
 }
@@ -41,7 +62,7 @@
 
 .jaQaOm {
   font-size: 1.02rem !important;
-}
+} */
 
 
 @media only screen and (max-width: 708px) {
