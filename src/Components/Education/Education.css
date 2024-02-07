@@ -1,122 +1,71 @@
-
-.titleEducation {
-  font-family: Montserrat;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: bold;
-  color: #000000;
-  margin-top: 10px;
-  display: flex;
+.vertical {
   justify-content: center;
 }
 
-.descriptionEducation {
-  display: flex;
-  font-size: 20px;
-  line-height: 45px;
-  left: 50px;
-  margin-top: 40px;
-  margin-left: 20px;
-  padding: 45px;
-}
-
-.careerXXI {
-  display: flex;
-  position: absolute;
-  margin-top: 40px;
-}
-
-.nameSchool {
-  font-size: 30px;
-  display: flex;
-  position: absolute;
-}
-
-.nameBootcamp {
-  font-size: 30px;
-  display: flex;
-  position: absolute;
-}
-
-.career {
-  display: flex;
-  position: absolute;
-  margin-top: 40px;
-}
-
-.education {
-  display: grid;
-  margin-top: 160px;
-  width: 100%;
-  justify-items: center;
-}
-
-.school {
+.vertical_alternating {
   justify-content: center;
-  display: flex;
-  padding-bottom: 20px;
-  margin-top: 60px;
 }
 
-.bootcamp {
-  justify-content: center;
-  display: flex;
-  padding-bottom: 20px;
-  padding-top: 30px;
+.my-card-title {
+  color: #ffffff !important;
+  font-size: 1.3rem !important;
 }
 
-.rectangleEducation {
-  justify-content: center;
-  display: flex;
-  margin-bottom: 30px;
-  width: 300px;
-  height: 100px;
-  border: 8px solid rgba(13, 138, 207, 0.12); /* Color y grosor del borde del rectángulo */
-  box-sizing: border-box; /* Asegura que el borde esté incluido en las dimensiones */
-  border-radius: 30px;
+.card-text {
+  font-size: 1.02rem !important;
+}
+
+.my-title {
+  background: none !important;
+  color: #ffffff !important;
+}
+
+.TriangleIconWrapper-sc-d7qjm1-11 {
+  display: none !important;
+}
+
+.TimelineContentDetails-sc-d7qjm1-5 {
+  font-size: 1.10rem !important;
+}
+
+.TitleWrapper-sc-13izrht-0 {
+  overflow: visible !important;
+}
+
+.TimelineControlContainer-sc-cif21b-4 {
+  display: none !important;
+}
+
+.section-content-container {
+  width: 100% !important;
 }
 
 
-
-@media only screen and (max-width: 800px) {
-  
-
-  .titleEducation {
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
+@media only screen and (max-width: 708px) {
+  div.vertical-item-row > div:nth-child(1) {
+      width: 20% !important;
   }
-  
-  .descriptionEducation {
-    font-size: 11px;
-    line-height: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
+  div.vertical-item-row > div:nth-child(2) {
+      width: 65% !important;
   }
-  
-  .nameSchool {
-    font-size: 20px;
-  }
-  
-  .nameBootcamp {
-    font-size: 20px;
+  div.vertical-item-row > div:nth-child(3) {
+      width: 15% !important;
   }
 
-  .careerXXI {
-    font-size: 14px;
+  .TimelineContentDetails-sc-d7qjm1-5 {
+    font-size: 0.8rem !important;
   }
 
-  .career {
-    font-size: 14px;
+  .my-card-title {
+    font-size: 1rem !important;
   }
 
-  .education {
-    margin-top: 10px;
+  .my-title {
+    font-size: 0.8rem !important;
   }
-  
+
+  .TitleWrapper-sc-13izrht-0 {
+    overflow: visible !important;
+  }
+
 }

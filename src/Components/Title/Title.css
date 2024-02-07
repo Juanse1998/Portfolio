@@ -78,6 +78,25 @@
   align-items: center;
   justify-content: right;
 }
+
+.buttonCv {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 13px;
+}
+
+.buttonDownload {
+  width: 188px;
+  height: 40px;
+  border-radius: 13px;
+  background-color: rgba(69, 103, 196, 0.61);
+  font-weight: bold;
+  color: white;
+}
+
 @media only screen and (max-width: 1000px) {
   .me {
     display: inline-block;

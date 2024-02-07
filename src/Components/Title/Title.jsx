@@ -6,7 +6,21 @@ import linkedin from "./linkedin.png"
 import github from "./logotipo-de-github.png"
 import wpp from "./wpp.png"
 import { Fade } from "react-awesome-reveal";
+import cv from "./CVJuanSosa.pdf";
 
+const handleDownload = () => {
+  fetch(cv)
+    .then(response => response.blob())
+    .then(blob => {
+      const url = window.URL.createObjectURL(new Blob([blob]));
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'CV-Juan-Sosa.pdf'); // Nombre del archivo a descargar
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+};
 
 
 export default function Title() {
@@ -38,6 +52,11 @@ export default function Title() {
             <a href="https://github.com/Juanse1998" target="_blank" rel="noreferrer"><img src={github} alt="Logo" className="github" /></a>
           </div>
         </Fade>
+        <div className="buttonCv">
+          <button className="buttonDownload" onClick={handleDownload}>
+            DESCARGAR CV
+          </button>
+        </div>
       </div>
     </>
   );

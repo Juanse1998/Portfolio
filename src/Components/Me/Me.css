@@ -10,9 +10,14 @@
     display: flex;
     padding: 45px;
     width: 100%;
-    font-size: 25px;
-    line-height: 45px;
+    font-size: 1.2rem;
+    line-height: 30px;
     margin-top: 60px;
+  }
+
+  .classMe {
+    box-shadow: 5px 5px 10px;
+    border-radius: 20pxS;
   }
   
   .titleMe {
@@ -24,6 +29,21 @@
     display: flex;
     position: absolute;
     color: #000000;
+  }
+
+  .meProfile {
+    display: flex;
+    animation: center;
+  }
+
+  .imageMe{
+    margin-top: 14%;
+  }
+
+  .imageProfile {
+    width: 200px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 25px;
   }
   
   @media only screen and (max-width: 800px) {
@@ -51,6 +71,28 @@
       border-radius: 30px;
       height: 40px;
       width: 150px;
+    }
+
+    .meProfile {
+      display: block;
+    }
+
+    .imageProfile {
+      width: 200px;
+      box-shadow: 5px 5px 10px;
+      border-radius: 25px;
+    }
+
+    .imageMe {
+      margin-top: 90px;
+    }
+
+    .about {
+      text-align: justify;
+    }
+
+    .presentation {
+      margin-top: 100px;
     }
 
   }
