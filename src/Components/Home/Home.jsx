@@ -19,9 +19,6 @@ export default function Home() {
         <Skills />
         <Project />
         {/* <ContactForm /> */}
-
-        {/* <div>
-        </div> */}
       </div>
     </>
   );
