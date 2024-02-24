@@ -7,18 +7,19 @@ import Me from "../Me/Me.jsx";
 import "./Home.css";
 import Experience from "../Experience/Experience.jsx";
 import Education from "../Education/Education.jsx";
+import Navbar from "../NavBar/Navbar.jsx";
 
 export default function Home() {
   return (
     <>
       <div className="container">
+        <Navbar />
         <Title />
         <Me />
         <Education />
         <Experience />
         <Skills />
         <Project />
-        {/* <ContactForm /> */}
       </div>
     </>
   );

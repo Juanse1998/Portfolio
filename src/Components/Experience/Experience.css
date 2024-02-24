@@ -16,18 +16,33 @@
 .contentTitle {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-bottom: 20px;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .item-title {
+    font-size: 1.1em;
       margin-top: 10px !important;
   }
 
   .titleExperience {
     position: absolute;
     font-size: 30px;
+  }
+
+  .timeline-item-dateinner {
+    width: 200px !important;
+    font-size: 13px !important;
+  }
+
+  .timeline-item-date {
+    width: 200px;
+    background-color: white;
+  }
+
+  .timeline:before {
+    left: calc(15.2% + 6px);
   }
 
 }

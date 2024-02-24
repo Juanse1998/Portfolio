@@ -6,9 +6,11 @@ export default function Me() {
   return (
     <>
     <div className="presentation">
-      <h3 id="about" className="titleMe">
-        Sobre mi
-      </h3>
+      <div className="contentTitleMe">
+        <h3 id="about" className="titleMe">
+          Sobre mi
+        </h3>
+      </div>
       <div className="meProfile">
         <div className="imageMe">
           <img src={image} alt="" className="imageProfile"/>

@@ -19,19 +19,21 @@ const styles = {
     marginBottom: 10,
   },
   subtitleStyle: {
+    fontSize: '0.8em',
     display: 'inline-block',
   },
   inlineChild: {
     display: 'inline-block',
   },
   itemStyle: {
+    fontSize: '0.8em',
+    width: '500px',
     fontFamily: 'Gujarati Sangam MN',
     marginBottom: 10,
   },
 };
 
-function Experience(props) {
-  const theme = useContext(ThemeContext);
+function Experience() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -48,12 +50,12 @@ function Experience(props) {
       {data
         ? (
           <div className="section-content-container" id="experience">
-            <Container>
             <div className="contentTitle">
               <h3 className="titleExperience">
                 Experiencia
               </h3>
             </div>
+            <Container>
               <Timeline
                 lineColor="#ccc"
               >

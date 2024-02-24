@@ -8,11 +8,15 @@
   
   .about {
     display: flex;
-    padding: 45px;
-    width: 100%;
-    font-size: 1.2rem;
+    padding: 40px;
+    width: 900px;
+    font-size: 1rem;
     line-height: 30px;
-    margin-top: 60px;
+    margin-top: 13px;
+  }
+
+  .contentTitleMe {
+    position: absolute;
   }
 
   .classMe {
@@ -26,22 +30,22 @@
     margin-top: 10px;
     font-style: normal;
     font-weight: bold;
-    display: flex;
-    position: absolute;
     color: #000000;
   }
 
   .meProfile {
     display: flex;
     animation: center;
+    margin-top: 50px;
+    align-items: center;
   }
 
   .imageMe{
-    margin-top: 14%;
+    height: 218px;
   }
 
   .imageProfile {
-    width: 200px;
+    width: 160px;
     box-shadow: 5px 5px 10px;
     border-radius: 25px;
   }
@@ -57,7 +61,7 @@
     }
   
     .titleMe {
-      margin-top: 1px;
+      margin-top: 140px;
       font-size: 30px;
     }
 
@@ -74,16 +78,18 @@
     }
 
     .meProfile {
+      margin-top: 120px;
       display: block;
     }
 
     .imageProfile {
-      width: 200px;
+      width: 160px;
       box-shadow: 5px 5px 10px;
       border-radius: 25px;
     }
 
     .imageMe {
+      width: 203px;
       margin-top: 90px;
     }
 

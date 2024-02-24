@@ -1,15 +1,21 @@
 .me {
-  align-items: center;
-  margin-top: 60px;
+  margin-top: 130px;
+}
+
+.titles {
+  justify-content: center;
+  display: inline-flex;
+  width: 100%;
 }
 
 .titleApp {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 38px;
   display: flex;
   color: #000000;
+  justify-content: center;
 }
 
 .subtitle {
@@ -17,43 +23,40 @@
   font-family: Raleway !important;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
   color: #919191;
 }
 
 .imagen-one {
   display: flex;
-  padding-left: 30px;
+  justify-content: center;
 }
 
 .imagen-two {
-  margin-top: -460px;
-  width: 48%;
-  object-fit: cover;
-  display: flex;
-  float: right;
-  justify-content: right;
-  z-index: 1;
-  margin-right: 20px;
+  width: 77%;
 }
 
 .name {
-  width: auto;
-  justify-content: left;
-  margin-left: 60px;
+  top: 73px;
+  width: 500px;
 }
 
 .contSubtitle {
+  justify-content: center;
   width: auto;
   display: flex;
-  padding-left: 67px;
 }
 
 .contImagen {
+  display: block;
+  text-align: center;
+  height: 40px;
+}
+
+.containerIlustration {
+  margin-top: 40px;
   display: flex;
-  float: right;
-  margin-right: 108px;
-  margin-top: -39px;
+  justify-content: flex-end;
 }
 
 .linkedin {
@@ -75,12 +78,20 @@
 }
 
 .redes {
-  align-items: center;
-  justify-content: right;
+  display: block;
+  justify-content: center;
+}
+
+.imagenPc {
+  width: 500px;
+  justify-content: center;
+  width: 500px;
+  display: flex;
 }
 
 .buttonCv {
-  margin-top: 80px;
+  position: relative;
+  top: 80px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -97,10 +108,11 @@
   color: white;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .me {
     display: inline-block;
     align-items: center;
+    margin-top: 10px;
   }
 
   .imagen-one {
@@ -148,4 +160,38 @@
     font-size: 20px;
     color: #919191;
   }
+
+  .redes {
+    position: absolute;
+  }
+
+  .buttonCv {
+    margin-top: 20px;
+  }
+
+  .buttonDownload {
+    font-size: 9px;
+    width: 130px;
+    height: 30px;
+  }
+
+  .redes {
+    top: 490px;
+  }
+
+  .linkedin {
+    width: 30px;
+    margin-inline: 25px;
+  }
+  
+  .github {
+    margin-inline: 25px;
+    width: 30px;
+  }
+  
+  .wpp {
+    margin-inline: 25px;
+    width: 30px;
+  }
+
 }

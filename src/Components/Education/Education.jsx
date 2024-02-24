@@ -39,51 +39,52 @@ function EducationTwo(props) {
   return (
     <>
       {data ? (
-        <Fade>
-          <div className="contentTitle" id="educationTwo">
-              <h3 className="titleExperience">
+          <div className='containerEducation'>
+            <div className="contentTitleEducation" id="educationTwo">
+              <h3 className="titleEducation">
                 Educación
               </h3>
             </div>
-          <div style={{ width }} className="section-content-container">
-            <Container>
-              <Chrono
-                allowDynamicUpdate
-                useReadMore={false}
-                items={data.education}
-                cardHeight={250}
-                mode={mode}
-                className="my-timeline"
-                theme={{
-                  primary: '#3D84C6',
-                  secondary: 'white',
-                  cardForeColor: 'black',
-                  titleColor: 'white',
-                  cardBgColor: 'rgba(118, 84, 255, 0.09)',
-                  titleColor: 'white',
-                  titleColorActive: 'red',
-                }}
-                fontSizes={{
-                  cardSubtitle: '1rem',
-                  cardDescription: '1rem',
-                  cardText: '1.02rem',
-                  cardTitle: '1.3rem',
-                  title: '1.4rem',
-                }}
-                classNames={{
-                  card: 'my-card',
-                  cardMedia: 'my-card-media',
-                  cardSubTitle: 'my-card-subtitle',
-                  cardText: 'my-card-text',
-                  cardTitle: 'my-card-title',
-                  controls: 'my-controls',
-                  title: 'my-title',
-                }}
-              >
-              </Chrono>
-            </Container>
+            <Fade>
+              <div style={{ width }} className="section-content-container">
+                <Container>
+                  <Chrono
+                    allowDynamicUpdate
+                    useReadMore={false}
+                    items={data.education}
+                    cardHeight={250}
+                    mode={mode}
+                    className="my-timeline"
+                    theme={{
+                      primary: '#3D84C6',
+                      secondary: 'black',
+                      cardForeColor: 'black',
+                      titleColor: 'white',
+                      cardBgColor: 'rgba(118, 84, 255, 0.09)',
+                      titleColorActive: 'red',
+                    }}
+                    fontSizes={{
+                      cardSubtitle: '0.9rem',
+                      cardDescription: '0.8rem',
+                      cardText: '0.8rem',
+                      cardTitle: '1.1rem',
+                      title: '1rem',
+                    }}
+                    classNames={{
+                      card: 'my-card',
+                      cardMedia: 'my-card-media',
+                      cardSubTitle: 'my-card-subtitle',
+                      cardText: 'my-card-text',
+                      cardTitle: 'my-card-title',
+                      controls: 'my-controls',
+                      title: 'my-title',
+                    }}
+                  >
+                  </Chrono>
+                </Container>
+              </div>
+            </Fade>
           </div>
-        </Fade>
       ) : <FallbackSpinner /> }
     </>
   );
