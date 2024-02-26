@@ -8,6 +8,7 @@ import "./Home.css";
 import Experience from "../Experience/Experience.jsx";
 import Education from "../Education/Education.jsx";
 import Navbar from "../NavBar/Navbar.jsx";
+import Footer from "../Footer/Footer.jsx";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Experience />
         <Skills />
         <Project />
+        <Footer />
       </div>
     </>
   );
