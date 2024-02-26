@@ -27,7 +27,6 @@ const styles = {
   },
   itemStyle: {
     fontSize: '0.8em',
-    width: '500px',
     fontFamily: 'Gujarati Sangam MN',
     marginBottom: 10,
   },
@@ -85,7 +84,7 @@ function Experience() {
                       </div>
                       <ul style={styles.ulStyle}>
                         {item.workDescription.map((point) => (
-                          <div key={point}>
+                          <div className="descriptionExperience" key={point}>
                             <li>
                               <ReactMarkdown
                                 children={point}

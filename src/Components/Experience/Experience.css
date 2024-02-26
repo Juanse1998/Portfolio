@@ -20,7 +20,7 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .item-title {
     font-size: 1.1em;
       margin-top: 10px !important;
@@ -42,7 +42,8 @@
   }
 
   .timeline:before {
-    left: calc(15.2% + 6px);
+    display: none;
   }
+
 
 }
