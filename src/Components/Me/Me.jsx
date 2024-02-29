@@ -35,7 +35,7 @@ export default function Me() {
           </div>
           <div className="meProfile">
             <div className="imageMe">
-              <img src={data.imageJuanse} alt="" className="imageProfile"/>
+              <img src={data.imageJuan} alt="" className="imageProfile"/>
             </div>
             <div className="about">
               <p>
