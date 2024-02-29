@@ -1,40 +1,29 @@
-import react from "./reactjs.png";
-import atom from "./atom.png";
-import css from "./css.png";
-import database from "./database.png";
-import docker from "./docker.png";
-import github from "./github.png";
-import html from "./html-5.png";
-import java from "./java.png";
-import mysql from "./mysql.png";
-import postman from "./postman.png";
-import sequelize from "./sequelize.png";
-import node from "./node.png";
-import ruby from "./ruby.png";
-import angular from "./angular.png";
-import angularjs from "./angularjs.png";
-import React from 'react';
+import {React, useState, useEffect} from 'react';
+import endpoints from '../../Constants/endpoints';
 
 import "./Skills.css";
 
-const array = [
-  react,
-  atom, 
-  css,
-  database,
-  docker,
-  github,
-  html,
-  java,
-  mysql,
-  postman,
-  sequelize,
-  node,
-  ruby,
-  angular,
-  angularjs
-];
 export default function Skills() {
+
+  const [data, setData] = useState([])
+
+	useEffect(() => {
+		// Función para cargar los datos usando fetch
+		async function fetchData() {
+			try {
+				const response = await fetch(endpoints.images); // Obtiene la ruta del archivo JSON desde endpoints.json
+				if (!response.ok) {
+					throw new Error('No se pudo cargar el archivo JSON.');
+				}
+				const jsonData = await response.json();
+				setData(jsonData.images); // Establece los datos en el estado 'data'
+			} catch (error) {
+				console.error('Error al cargar los datos:', error);
+			}
+		}
+		// Llama a la función para cargar los datos cuando el componente se monta
+		fetchData();
+	}, []);
   return (
     <>
     <div className="contSkills" id="skills">
@@ -46,7 +35,7 @@ export default function Skills() {
           <a title="React" href="https://es.reactjs.org" target="blanck">
             <img
               className="logos"
-              src={react}
+              src={data.imageReact}
               alt="logo react"
               style={{
                 width: '50px',
@@ -62,7 +51,7 @@ export default function Skills() {
           <a title="React-Native" href="https://reactnative.dev" target="blanck">
             <img
               className="logos"
-              src={atom}
+              src={data.imageReactNative}
               alt="logo react"
             />
             <div className="tech-name">
@@ -74,7 +63,7 @@ export default function Skills() {
            <a title="CSS" href="https://developer.mozilla.org/es/docs/Web/CSS" target="blanck">
             <img
               className="logos"
-              src={css}
+              src={data.imageCss}
               alt="logo react"
             />
             <div className="tech-name">
@@ -86,7 +75,7 @@ export default function Skills() {
             <a title="SQL" href="https://dev.mysql.com/doc/" target="blanck">
               <img
                 className="logos"
-                src={database}
+                src={data.imageSql}
                 alt="logo react"
                 style={{
                   width: "50px",
@@ -102,7 +91,7 @@ export default function Skills() {
           <a title="Docker" href="https://hub.docker.com/_/docker-docs" target="blanck">
             <img
               className="logos"
-              src={docker}
+              src={data.imageDocker}
               alt="logo react"
             />
             <div className="tech-name">
@@ -114,7 +103,7 @@ export default function Skills() {
           <a title="GitHub" href="https://github.com" target="blanck">
             <img
               className="logos"
-              src={github}
+              src={data.imageGitHub}
               alt="logo react"
             />
             <div className="tech-name">
@@ -126,7 +115,7 @@ export default function Skills() {
           <a title="GitHub" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blanck">
             <img
               className="logos"
-              src={html}
+              src={data.imageHtml}
               alt="logo react"
             />
             <div className="tech-name">
@@ -174,7 +163,7 @@ export default function Skills() {
           <a title="Sequelize" href="https://sequelize.org" target="blanck">
             <img
               className="logos"
-              src={sequelize}
+              src={data.imageSequelize}
               alt="logo react"
             />
             <div className="tech-name">
@@ -186,7 +175,7 @@ export default function Skills() {
           <a title="NodeJs" href="https://nodejs.org/en/docs/" target="blanck">
             <img
               className="logos"
-              src={node}
+              src={data.imageNode}
               alt="logo node js"
             />
             <div className="tech-name">
@@ -198,7 +187,7 @@ export default function Skills() {
           <a title="Angular" href="https://angular.io/docs" target="blanck">
             <img
               className="logos"
-              src={angular}
+              src={data.imageAngular}
               alt="logo angular"
             />
             <div className="tech-name">
@@ -210,7 +199,7 @@ export default function Skills() {
           <a title="AngularJs" href="https://docs.angularjs.org/guide" target="blanck">
             <img
               className="logos"
-              src={angularjs}
+              src={data.imageAngularJs}
               alt="logo angularjs"
             />
             <div className="tech-name">
@@ -222,7 +211,7 @@ export default function Skills() {
           <a title="RoR" href="https://guides.rubyonrails.org" target="blanck">
             <img
               className="logos"
-              src={ruby}
+              src={data.imageRuby}
               alt="logo RoR"
             />
             <div className="tech-name">

@@ -1,0 +1,34 @@
+{
+  "images" : {
+    "imageLinkedin": "images/linkedin.png",
+    "imageGitHub": "images/imageGitHub.png",
+    "imageWpp": "images/imageWpp.png",
+    "imagePersonTitle": "images/imagePersonTitle.png",
+    "imagePcTitle": "images/imagePcTitle.png",
+    "imageLogoJs": "images/imageLogoJs.png",
+    "imageJuanse": "images/imageJuanse.jpg",
+    "imageTe": "images/imageTe.png",
+    "imageTe2": "images/imageTe2.png",
+    "imageTe3": "images/imageTe3.png",
+    "imageWatherApp1": "images/imageWatherApp1.png",
+    "imageWatherApp2": "images/imageWatherApp2.png",
+    "imageJava": "images/imageJava.png",
+    "imageMySql": "images/imageMySql.png",
+    "imageSql": "images/imageSql.png",
+    "imageDocker": "images/imageDocker.png",
+    "imageCss": "images/imageCss.png",
+    "imageReact": "images/imageReact.png",
+    "imageHtml": "images/imageHtml.png",
+    "imageReactNative": "images/imageReactNative.png",
+    "imagePostman": "images/imagePostman.png",
+    "imageSequelize": "images/imageSequelize.png",
+    "imageRuby": "images/imageRuby.png",
+    "imageNode": "images/imageNode.png",
+    "imageAngularJs": "images/imageAngularJs.png",
+    "imageAngular": "images/imageAngular.png",
+    "imagePortfolio": "images/imagePortfolio.png",
+    "imageVideogames2": "images/imageVideogames2.png",
+    "imageLogoJs2": "images/imageLogoJs2.png"
+
+  }
+}

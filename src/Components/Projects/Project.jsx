@@ -1,38 +1,52 @@
-import { React, useState  } from "react";
-import te from "./te.png";
-import te2 from "./te-3.png";
-import te3 from "./te-3.png";
-import videogames1 from "./videogames1.png";
-import videogames2 from "./videogames2.png";
-import videogames3 from "./videogames3.png";
-import videogames4 from "./videogames4.png";
-import watherApp1 from "./watherApp1.png";
-import watherApp2 from "./watherApp2.png";
-import logoGit from "../Title/logotipo-de-github.png";
-
-import "./Project.css";
+import { React, useState, useEffect } from "react";
+import endpoints from '../../Constants/endpoints';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import "./Project.css";
 
 
 const styles = {
   imgStyle: {
     width: '320px',
-    borderRadius: '20px'
+    borderRadius: '20px',
+    border: '3px solid'
   }
 }
 
 export default function Project() {
+
+  const [data, setData] = useState([])
+
+	useEffect(() => {
+		// Función para cargar los datos usando fetch
+		async function fetchData() {
+			try {
+				const response = await fetch(endpoints.images); // Obtiene la ruta del archivo JSON desde endpoints.json
+				if (!response.ok) {
+					throw new Error('No se pudo cargar el archivo JSON.');
+				}
+				const jsonData = await response.json();
+				setData(jsonData.images); // Establece los datos en el estado 'data'
+			} catch (error) {
+				console.error('Error al cargar los datos:', error);
+			}
+		}
+		// Llama a la función para cargar los datos cuando el componente se monta
+		fetchData();
+	}, []);
+
   return (
     <>
-      <div id="projects" className="containerProject">
+      {data &&(
+        <div id="projects" className="containerProject">
         <div className="contTitle">
           <span>Mis Proyectos</span>
         </div>
         <div className="containerProjects">
+
           <div className="contentCard">
             <div className="projectCard">
-              <img src={te}  style={styles.imgStyle}/>
+              <img src={data.imageTe}  style={styles.imgStyle}/>
               <h2 className="titleProject">Té quiero Eccomerce</h2>
               <div className="contentDescription">
                 <p className="descriptionProject">Este proyecto de Eccomerce fue desarrollado en equipo como proyecto final de un curso. 
@@ -62,14 +76,14 @@ export default function Project() {
                 </div>
               </div>
               <div className="contentLogoGit">
-                <a href="https://github.com/Juanse1998/Ecommerce" target="_blank" rel="noreferrer"><img src={logoGit} alt="Logo" className="gitHubClass" /></a>
+                <a href="https://github.com/Juanse1998/Ecommerce" target="_blank" rel="noreferrer"><img src={data.imageGitHub} alt="Logo" className="gitHubClass" /></a>
               </div>
             </div>
           </div>
 
           <div className="contentCard">
             <div className="projectCard">
-              <img src={watherApp1} style={styles.imgStyle}/>
+              <img src={data.imageWatherApp1} style={styles.imgStyle}/>
               <h2 className="titleProject">Weather App</h2>
               <div className="contentDescription">
                 <p className="descriptionProject">Una aplicación que te permite consultar el pronóstico del tiempo de cualquier ciudad, desarrollada utilizando las tecnologías de React, Node.js y CSS.</p>
@@ -95,7 +109,7 @@ export default function Project() {
                 </div>
               </div>
               <div className="contentLogoGit">
-                <a href="https://github.com/Juanse1998/AppClima" target="_blank" rel="noreferrer"><img src={logoGit} alt="Logo" className="gitHubClass" /></a>
+                <a href="https://github.com/Juanse1998/AppClima" target="_blank" rel="noreferrer"><img src={data.imageGitHub} alt="Logo" className="gitHubClass" /></a>
               </div>
 
             </div>
@@ -114,7 +128,7 @@ export default function Project() {
           </Carousel> */}
           <div className="contentCard">
             <div className="projectCard">
-              <img className="img1" id="img1" src={videogames1} style={styles.imgStyle}/>
+              <img className="img1" id="img1" src={data.imageVideogames2} style={styles.imgStyle}/>
               <h2 className="titleProject">Videogames App</h2>
               <div className="contentDescription">
                 <p className="descriptionProject">Una aplicación dedicada a videojuegos que te permite buscar, agregar y destacar tus juegos favoritos. Fue desarrollada utilizando las tecnologías de React, Node.js y CSS.</p>
@@ -152,12 +166,40 @@ export default function Project() {
                 </div>
               </div>
               <div className="contentLogoGit">
-                <a href="https://github.com/Juanse1998/VideoGamesApp" target="_blank" rel="noreferrer"><img src={logoGit} alt="Logo" className="gitHubClass" /></a>
+                <a href="https://github.com/Juanse1998/VideoGamesApp" target="_blank" rel="noreferrer"><img src={data.imageGitHub} alt="Logo" className="gitHubClass" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div className="contentCard">
+            <div className="projectCard">
+              <img src={data.imagePortfolio}  style={styles.imgStyle}/>
+              <h2 className="titleProject">Portfolio personal</h2>
+              <div className="contentDescription">
+                <p className="descriptionProject">He creado un portfolio personal que refleja mi identidad y creatividad.</p>
+              </div>
+
+              <div className="titleTechnologies">
+                <span>TECNOLOGIAS UTILIZADAS</span>
+              </div>
+              <div className="containerTechnologies">
+                <div className="todasLas">
+                  <div className="technologies">
+                    <span>React</span>
+                  </div>
+                  <div className="technologies">
+                    <span>CSS</span>
+                  </div>
+                </div>
+              </div>
+              <div className="contentLogoGit">
+                <a href="https://github.com/Juanse1998/Ecommerce" target="_blank" rel="noreferrer"><img src={data.imageGitHub} alt="Logo" className="gitHubClass" /></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+      )}
     </>
   );
 }
