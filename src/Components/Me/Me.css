@@ -1,6 +1,6 @@
 
 .presentation {
-    display: flex;
+    display: grid;
     justify-content: center;
     margin-top: 200px;
     position: relative;
@@ -16,7 +16,9 @@
   }
 
   .contentTitleMe {
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 80px;
   }
 
   .classMe {
@@ -38,6 +40,7 @@
     animation: center;
     margin-top: 50px;
     align-items: center;
+    justify-content: center;
   }
 
   .imageMe{
@@ -61,7 +64,7 @@
     }
   
     .titleMe {
-      margin-top: 140px;
+      margin-top: 40px;
       font-size: 30px;
     }
 
@@ -78,8 +81,8 @@
     }
 
     .meProfile {
-      margin-top: 120px;
       display: block;
+      justify-content: center;
     }
 
     .imageProfile {
@@ -90,7 +93,6 @@
 
     .imageMe {
       width: 203px;
-      margin-top: 90px;
     }
 
     .about {

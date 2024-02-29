@@ -1,6 +1,4 @@
-// Filename - components/Footer.js
-
-import React from "react";
+import { React, useEffect, useState } from "react";
 import {
 	Box,
 	FooterContainer,
@@ -13,7 +11,7 @@ import {
   ContainerDescription,
   ContainerImage
 } from "./FooterStyles";
-import logo from "./LogoJs.png"
+import endpoints from '../../Constants/endpoints';
 
 const styles = {
   span: {
@@ -28,12 +26,36 @@ const styles = {
   }
 };
 
-const Footer = () => {
+
+export default function Footer() {
+
+	const [data, setData] = useState([])
+
+	useEffect(() => {
+		// Función para cargar los datos usando fetch
+		async function fetchData() {
+			try {
+				const response = await fetch(endpoints.images); // Obtiene la ruta del archivo JSON desde endpoints.json
+				if (!response.ok) {
+					throw new Error('No se pudo cargar el archivo JSON.');
+				}
+				const jsonData = await response.json();
+				setData(jsonData.images); // Establece los datos en el estado 'data'
+			} catch (error) {
+				console.error('Error al cargar los datos:', error);
+			}
+		}
+		// Llama a la función para cargar los datos cuando el componente se monta
+		fetchData();
+	}, []);
+
 	return (
-		  <Box>
+		<>
+			{data && (
+				<Box>	
         <div style={styles.content}>
 		  	  <ContainerImage>
-		  	  	<FooterImg src={logo} alt="Jss logo" className="imaLogoJS" />
+		  	  	<FooterImg src={data.imageLogoJs} alt="Jss logo" className="imaLogoJS" />
 		  	  </ContainerImage>
           <ContainerName >
             <Heading>Juan Segundo Sosa</Heading>
@@ -82,6 +104,8 @@ const Footer = () => {
         </div>
 
 		  </Box>
+
+			)}
+		</>
 	);
 };
-export default Footer;
