@@ -7,6 +7,12 @@
 .navBar {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.632);
+  top: 0px;
 }
 
 .logoJsNav {
