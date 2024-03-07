@@ -48,7 +48,7 @@ function Experience() {
     <>
       {data
         ? (
-          <div className="section-content-container" id="experience">
+          <div className="section-content-container-experience" id="experience">
             <div className="contentTitle">
               <h3 className="titleExperience">
                 Experiencia
