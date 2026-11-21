@@ -227,7 +227,7 @@ nav.main a:hover::after,nav.main a[aria-current="page"]::after{transform:scaleX(
 /* Marquee */
 .marquee{border-block:1px solid var(--line);overflow:hidden;padding-block:14px;white-space:nowrap}
 .marquee .track{display:inline-flex;gap:40px;animation:scroll 32s linear infinite;font-family:var(--display);font-weight:600;font-stretch:90%;font-size:22px;text-transform:uppercase}
-.marquee .track span::after{content:"✳";margin-left:40px;color:var(--accent)}
+.marquee .track span::after{content:"";display:inline-block;width:.32em;height:.32em;border-radius:50%;background:var(--accent);margin-left:40px;vertical-align:middle;transform:translateY(-.08em)}
 @keyframes scroll{to{transform:translateX(-50%)}}
 
 /* Section head */
@@ -408,7 +408,7 @@ header.hide{transform:translateY(calc(-100% - 2px))}
 .marquee .track{animation:none;will-change:transform}
 .marquee.alt{border-color:color-mix(in srgb,var(--bg) 20%,transparent);margin-bottom:56px}
 .marquee.alt .track{font-size:clamp(28px,4vw,48px);font-stretch:68%;font-weight:800}
-.marquee.alt .track span::after{content:"→"}
+.marquee.alt .track span::after{content:"→";width:auto;height:auto;border-radius:0;background:none;color:inherit;transform:none;font-variant-emoji:text}
 
 /* Magnetic */
 .mag{transition:transform .5s cubic-bezier(.2,.7,.2,1)}
